@@ -1,6 +1,8 @@
 #Kleuker SEU
 OOAD/kleukersSEU
 
+VTS/tomcat
+
 #Compiled Sources + Temporary files
 *.class
 *.o
