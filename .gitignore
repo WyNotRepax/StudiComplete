@@ -1,8 +1,15 @@
+#Kleuker SEU
 OOAD/kleukersSEU
+
+#Compiled Sources + Temporary files
 *.class
 *.o
+*.obj
 *.exe
 *.zip
 
+#System Information
 *.DS_Store
+
+#Precompiled headers
 *.ipch
