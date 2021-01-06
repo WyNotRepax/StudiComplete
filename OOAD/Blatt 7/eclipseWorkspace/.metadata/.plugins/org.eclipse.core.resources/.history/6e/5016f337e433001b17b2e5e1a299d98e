@@ -1,0 +1,7 @@
+
+package nutzerverwaltung.entity;
+
+public class Zugriffsverwaltung {
+	private Nutzer aktuellerNutzer;
+	
+}

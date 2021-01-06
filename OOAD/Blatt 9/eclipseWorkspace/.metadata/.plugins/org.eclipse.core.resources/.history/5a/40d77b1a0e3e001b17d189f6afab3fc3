@@ -1,0 +1,14 @@
+/*
+ * Author: Benno Steinkamp
+ * Date: 14.12.2020
+ */
+package Ausruestung;
+
+public class Ruestung extends Ausruestung {
+
+	public Ruestung(String name,int schutz, int preis) {
+		super(name, preis);
+		// TODO Auto-generated constructor stub
+	}
+	
+}

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/teamDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/colorText"
+            android:textSize="24sp"
+            tools:text="OurTeam" />
+
+        <TextView
+            android:id="@+id/matchOpponent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/colorText"
+            android:textSize="24sp"
+            tools:text="Opponent Team"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/matchScore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:gravity="end"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:textAlignment="gravity"
+            android:textSize="48sp"
+            tools:text="1"
+            android:hint="@string/empty"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/colon"
+            android:textSize="48sp" />
+
+        <EditText
+            android:id="@+id/matchOpponentScore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:gravity="start"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:textAlignment="gravity"
+            android:textSize="48sp"
+            tools:text="1"
+            android:hint="@string/empty"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/matchHomegame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/match_homegame_true"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@color/colorText"/>
+
+    <LinearLayout
+        android:id="@+id/matchDateContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:visibility="visible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorTextAccent" />
+
+        <TextView
+            android:id="@+id/matchDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            tools:text="01.01.01" />
+
+        <TextView
+            android:id="@+id/matchDateLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/match_date_label"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/matchRefereeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:visibility="visible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorTextAccent" />
+
+        <TextView
+            android:id="@+id/matchReferee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            tools:text="Schied Richter" />
+
+        <TextView
+            android:id="@+id/matchRefereeLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/match_referee_label"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/matchLocationContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:visibility="visible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorTextAccent" />
+
+        <TextView
+            android:id="@+id/matchLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            tools:text="Teststraße 1" />
+
+        <TextView
+            android:id="@+id/matchLocationLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/match_location_label"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

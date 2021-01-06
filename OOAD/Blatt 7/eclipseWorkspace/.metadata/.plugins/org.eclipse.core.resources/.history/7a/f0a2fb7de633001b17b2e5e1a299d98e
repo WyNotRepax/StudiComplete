@@ -1,0 +1,10 @@
+package nutzerverwaltung.entity;
+
+public class Projektadministrator extends Nutzer {
+	public Projektadministrator() {
+		super();
+	}
+	public Projektadministrator(String login, String passwort) {
+		super(login, passwort);
+	}
+}

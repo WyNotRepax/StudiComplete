@@ -1,0 +1,8 @@
+Nein, die Implementation mithilfe eines Generischen Arrays (Object-Array) ist nicht Sinnvoll, da die Nachteile die Vorteile überwiegen.
+Grundsätslich wird die Generische ArrayList mithilfe eines Object-Arrays umgesetzt.
+Vorteile:
+	Keine Initialisierung wie bei ArrayList
+	Minimal mehr Overhead (Wird Wegoptimiert)
+Nachteile:
+	Casting bei Access
+	Kein Zugriff auf die Collection-Methoden von ArrayList

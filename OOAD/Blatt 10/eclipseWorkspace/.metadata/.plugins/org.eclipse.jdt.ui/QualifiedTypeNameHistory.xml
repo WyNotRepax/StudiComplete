@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="entity.Fluessigkeit"/>
+    <fullyQualifiedTypeName name="entity.Feststoff"/>
+    <fullyQualifiedTypeName name="interfaces.Visitor"/>
+    <fullyQualifiedTypeName name="visitor.VisitorSI"/>
+    <fullyQualifiedTypeName name="visitor.VisitorImperial"/>
+    <fullyQualifiedTypeName name="io.commands.ProgrammBeenden"/>
+    <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
+    <fullyQualifiedTypeName name="java.util.Deque"/>
+    <fullyQualifiedTypeName name="business.Rechner"/>
+    <fullyQualifiedTypeName name="sun.reflect.generics.reflectiveObjects.NotImplementedException"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,11 @@
+package io.commands;
+
+public class Reset implements Command {
+
+	@Override
+	public void execute() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

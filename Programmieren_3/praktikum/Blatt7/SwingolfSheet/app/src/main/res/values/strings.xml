@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Swingolf Sheet</string>
+    <string name="name">Name</string>
+    <string name="sheetHoleNum">Number of Holes</string>
+    <string name="players">Players</string>
+    <string name="addPlayer">Add Player</string>
+    <string name="holes">Holes</string>
+    <string name="addHole">Add Hole</string>
+    <string name="par">Par</string>
+    <string name="holeNr">Hole</string>
+</resources>

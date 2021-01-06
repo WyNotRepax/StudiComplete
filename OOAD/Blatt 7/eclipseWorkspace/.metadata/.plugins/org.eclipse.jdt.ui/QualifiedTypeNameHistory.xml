@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.PipedInputStream"/>
+    <fullyQualifiedTypeName name="java.io.PipedOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.ByteArrayInputStream"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="nutzerverwaltung.entity.Systemadministrator"/>
+    <fullyQualifiedTypeName name="nutzerverwaltung.entity.Nutzer"/>
+    <fullyQualifiedTypeName name="nutzerverwaltung.entity.Zugriffsverwaltung"/>
+</qualifiedTypeNameHistroy>

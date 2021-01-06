@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>405</y>
+      <w>189</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Package::main
+Main
+--
+
+--
+- neuerView()
+- neuerController()
+- controllerNutzen()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>234</x>
+      <y>81</y>
+      <w>225</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Package::main
+EinUndAusgabe
+--
+--
++leseString():String
++leseInteger():int
++leseFloat():float
++leseDouble():double
++ausgeben(Object)
++formatiertAusgeben(String, Object...)
++zufall(int,int):int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>243</y>
+      <w>36</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-io
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>90</y>
+      <w>189</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Package::mvc
+Controller
+--
+-aendern:String
+
+--
++Controller(Model, String, EinUndAusgabe)
++eingabeSteuern</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>144</y>
+      <w>180</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-io
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>405</x>
+      <y>252</y>
+      <w>225</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-controller
+m1=*
+m2=1</panel_attributes>
+    <additional_attributes>230.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>405</y>
+      <w>189</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Package::mvc
+Model
+--
+-wert:int
+
+--
++Model(int)
++listenerHinzufuegen(ModelListener)
++wertAendern(int)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>405</x>
+      <y>459</y>
+      <w>225</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-model
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>230.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>702</x>
+      <y>252</y>
+      <w>63</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-model
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>666</y>
+      <w>189</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+Package::mvc
+ModelListener
+--
+--
++wertaenderung()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>792</x>
+      <y>738</y>
+      <w>126</w>
+      <h>27</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>666</y>
+      <w>189</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Package::mvc
+View
+--
+-zeichen:char
+
+--
++View(Model,char)
++wertaenderung()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>693</x>
+      <y>567</y>
+      <w>72</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-listener
+m1=*
+m2=1</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>198</x>
+      <y>666</y>
+      <w>243</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Package::main
+Messages
+--
+-BUNDLE_NAME:String &lt;&lt;static&gt;&gt;
+-RESOURCE_BUNDLE:ResourceBundle &lt;&lt;static&gt;&gt;
+--
+-getString(String):String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>306</x>
+      <y>567</y>
+      <w>27</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>792</x>
+      <y>459</y>
+      <w>234</w>
+      <h>225</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-model
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0;230.0;230.0</additional_attributes>
+  </element>
+</diagram>

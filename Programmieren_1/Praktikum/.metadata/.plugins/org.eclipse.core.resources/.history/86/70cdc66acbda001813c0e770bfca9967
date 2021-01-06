@@ -1,0 +1,14 @@
+
+public class A4 {
+	public static void main(String[] args) {
+		int numI = 9 + 3 * 12;
+		int numII;
+		int numIII;
+		int numIV;
+		int numV;
+		int numVI;
+		int numVII;
+		int numX;
+		int numXI;
+	}
+}

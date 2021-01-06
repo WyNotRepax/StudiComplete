@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="CLion" targetName="CLion" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dff804e5-b105-497b-8e9c-94da158bc654" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1fzUcDyD3DO7iI6mH6ml0LPMaQz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\benno\OneDrive\Studi\CG\Projekt\CLion\src\shader" />
+      <recent name="C:\Users\benno\OneDrive\Studi\CG\Projekt\CLion\res\shaders" />
+      <recent name="C:\Users\benno\OneDrive\Studi\CG\Projekt\CLion\src\model" />
+      <recent name="C:\Users\benno\OneDrive\Studi\CG\Projekt\CLion\src\helper" />
+      <recent name="C:\Users\benno\OneDrive\Studi\CG\Projekt\CLion\src\shader\helper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\benno\OneDrive\Studi\CG\Projekt\CLion\src\shader\helper" />
+      <recent name="C:\Users\benno\OneDrive\Studi\CG\Projekt\CLion\res\fonts" />
+      <recent name="C:\Users\benno\OneDrive\Studi\CG\Projekt\CLion\src\helper" />
+      <recent name="C:\Users\benno\OneDrive\Studi\CG\Projekt\CLion\src\UI" />
+      <recent name="C:\Users\benno\OneDrive\Studi\CG\Projekt\CLion\src\math" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CLion" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLion" TARGET_NAME="CLion" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CLion" RUN_TARGET_NAME="CLion">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dff804e5-b105-497b-8e9c-94da158bc654" name="Default Changelist" comment="" />
+      <created>1597220492002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597220492002</updated>
+      <workItem from="1597220493180" duration="8965000" />
+      <workItem from="1597229476636" duration="8320000" />
+      <workItem from="1597240029520" duration="8959000" />
+      <workItem from="1597263417996" duration="4488000" />
+      <workItem from="1597308312162" duration="6900000" />
+      <workItem from="1597325564312" duration="932000" />
+      <workItem from="1597326505813" duration="8471000" />
+      <workItem from="1597336856892" duration="5118000" />
+      <workItem from="1597346438066" duration="9430000" />
+      <workItem from="1597394284458" duration="22247000" />
+      <workItem from="1597484916082" duration="10524000" />
+      <workItem from="1597652358466" duration="13110000" />
+      <workItem from="1597665766959" duration="606000" />
+      <workItem from="1597667887826" duration="1062000" />
+      <workItem from="1597823069461" duration="10034000" />
+      <workItem from="1597909563049" duration="3341000" />
+      <workItem from="1597914109525" duration="16639000" />
+      <workItem from="1598005010400" duration="3171000" />
+      <workItem from="1598008249516" duration="16422000" />
+      <workItem from="1598084258898" duration="20185000" />
+      <workItem from="1598171056364" duration="4515000" />
+      <workItem from="1598179006952" duration="5686000" />
+      <workItem from="1598185537124" duration="26987000" />
+      <workItem from="1598221973636" duration="1262000" />
+      <workItem from="1598223615911" duration="1617000" />
+      <workItem from="1598441009888" duration="6584000" />
+      <workItem from="1598462820004" duration="224000" />
+      <workItem from="1598476240393" duration="32000" />
+      <workItem from="1607546911922" duration="495000" />
+      <workItem from="1608468595423" duration="20000" />
+      <workItem from="1608468653754" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608468677013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608468677013" />
+    <state width="1877" height="202" key="GridCell.Tab.0.bottom" timestamp="1607547410440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607547410440" />
+    <state width="1877" height="202" key="GridCell.Tab.0.center" timestamp="1607547410440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="202" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607547410440" />
+    <state width="1877" height="202" key="GridCell.Tab.0.left" timestamp="1607547410439">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="202" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607547410439" />
+    <state width="1877" height="202" key="GridCell.Tab.0.right" timestamp="1607547410440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="202" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607547410440" />
+  </component>
+</project>

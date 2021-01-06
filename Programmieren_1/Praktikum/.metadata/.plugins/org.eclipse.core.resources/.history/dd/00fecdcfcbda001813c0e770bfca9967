@@ -1,0 +1,26 @@
+
+public class A4 {
+	public static void main(String[] args) {
+		int numI = 9 + 3 * 12;
+		int numII = -+1;
+		int numIII = 24/8-(((3)))/2;
+		int numIV;
+		int numV;
+		int numVI;
+		int numVII;
+		int numX;
+		int numXI;
+		
+		System.out.println("I:" + numI);
+		System.out.println("II:" + numI);
+		System.out.println("III:" + numI);
+		System.out.println("IV:" + numI);
+		System.out.println("V:" + numI);
+		System.out.println("VI:" + numI);
+		System.out.println("VIII:" + numI);
+		System.out.println("IX:" + numI);
+		System.out.println("X:" + numI);
+		System.out.println("XI:" + numI);
+		
+	}
+}

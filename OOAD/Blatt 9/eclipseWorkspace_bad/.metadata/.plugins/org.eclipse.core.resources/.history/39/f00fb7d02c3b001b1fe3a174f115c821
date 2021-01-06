@@ -1,0 +1,11 @@
+package zustand;
+
+import java.util.Map;
+
+public class Zustand {
+	private Map<Character,Zustand> uebergaenge;;
+	
+	public Zustand uebergang(char c) {
+		return this.uebergaenge.get(c)
+	}
+}

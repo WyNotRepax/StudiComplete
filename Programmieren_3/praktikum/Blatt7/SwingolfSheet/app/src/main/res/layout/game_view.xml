@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <de.hsos.prog3.bsteinka.ab07.swingolfsheet.view.SynchronizedHorizontalScrollView
+        android:id="@+id/holeScrollView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/playerScrollView"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TableLayout
+                android:id="@+id/holeTable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </de.hsos.prog3.bsteinka.ab07.swingolfsheet.view.SynchronizedHorizontalScrollView>
+
+    <de.hsos.prog3.bsteinka.ab07.swingolfsheet.view.SynchronizedScrollView
+        android:id="@+id/playerScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/holeScrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:id="@+id/playerTable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </de.hsos.prog3.bsteinka.ab07.swingolfsheet.view.SynchronizedScrollView>
+
+
+    <de.hsos.prog3.bsteinka.ab07.swingolfsheet.view.SynchronizedScrollView
+        android:id="@+id/valueScrollViewVert"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorSecondaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/playerScrollView"
+        app:layout_constraintTop_toBottomOf="@id/holeScrollView">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hsos.prog3.bsteinka.ab07.swingolfsheet.view.SynchronizedHorizontalScrollView
+                android:id="@+id/valueScrollViewHor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TableLayout
+                        android:id="@+id/scoreTable"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+            </de.hsos.prog3.bsteinka.ab07.swingolfsheet.view.SynchronizedHorizontalScrollView>
+        </LinearLayout>
+    </de.hsos.prog3.bsteinka.ab07.swingolfsheet.view.SynchronizedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

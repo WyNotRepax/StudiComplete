@@ -1,0 +1,28 @@
+/*
+ * Author: Benno Steinkamp
+ * Date: 14.12.2020
+ */
+package Ausruestung;
+
+public class Ruestung extends Ausruestung {
+	private int schutz;
+
+	public Ruestung(String name,int schutz, int preis) {
+		super(name, preis);
+		this.schutz = Math.max(0, Math.min(schutz, 10));
+	}
+	
+	public int abwehr(int angriff) {
+		//TODO: Implement this
+		return 0;
+	}
+
+	public int getSchutz() {
+		return schutz;
+	}
+
+	public void setSchutz(int schutz) {
+		this.schutz = schutz;
+	}
+	
+}

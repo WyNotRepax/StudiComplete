@@ -1,0 +1,118 @@
+pdt: ----------------------------------
+pdt: Tue Dec 08 16:39:20 CET 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: ----------------------------------
+pdt: Tue Dec 08 16:39:20 CET 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: WARNING - 08/12 16:39:27 - Prolog Process Default Process Work: Prolog warnings and errors during initialization:
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: source_sink `library(helpidx)' does not exist
+
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: Goal (directive) failed: pdt_manual_entry:use_module(library(helpidx))
+
+
+pdt: WARNING - 08/12 19:19:13 - Prolog Process Default Process Work: pdt: The following Exception was caught:
+java.lang.IllegalMonitorStateException: cannot call this from transition or work queue.
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle.waitUntilError(LifeCycle.java:160)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.error(AbstractPrologProcess.java:516)
+	at org.cs3.prolog.connector.internal.process.socket.SocketPrologProcess.error(SocketPrologProcess.java:277)
+	at org.cs3.prolog.connector.internal.process.socket.SocketPrologProcess.getShutdownSession(SocketPrologProcess.java:253)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.getShutdownSession(AbstractPrologProcess.java:224)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycleHookWrapper$3.run(LifeCycleHookWrapper.java:117)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+pdt: WARNING - 08/12 19:19:13 - Prolog Process Default Process Work: clearing queue
+pdt: WARNING - 08/12 19:19:13 - Framework stop - Equinox Container: d25f3317-895a-4511-8f8a-65055ff65c7e: problems during shutdown of process Default Process
+pdt: WARNING - 08/12 19:19:13 - Framework stop - Equinox Container: d25f3317-895a-4511-8f8a-65055ff65c7e: pdt: The following Exception was caught:
+org.cs3.prolog.connector.process.PrologProcessException: org.cs3.prolog.connector.process.PrologProcessException: java.net.ConnectException: Connection refused: connect
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle.waitUntilDown(LifeCycle.java:151)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess.stop(AbstractPrologProcess.java:498)
+	at org.cs3.prolog.connector.internal.process.socket.SocketPrologProcess.stop(SocketPrologProcess.java:266)
+	at org.cs3.pdt.connector.PDTConnectorPlugin.stop(PDTConnectorPlugin.java:234)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:900)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:892)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1029)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:370)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1886)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1761)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:202)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:660)
+	at org.eclipse.osgi.container.Module.stop(Module.java:521)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:220)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: org.cs3.prolog.connector.process.PrologProcessException: java.net.ConnectException: Connection refused: connect
+	at org.cs3.prolog.connector.internal.lifecycle.AbstractState.error(AbstractState.java:117)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$3.run(LifeCycle.java:226)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycle$DispatcherThread.run(LifeCycle.java:59)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:493)
+	at java.base/sun.nio.ch.Net.connect(Net.java:482)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:339)
+	at java.base/java.net.Socket.connect(Socket.java:603)
+	at java.base/java.net.Socket.connect(Socket.java:552)
+	at java.base/java.net.Socket.<init>(Socket.java:475)
+	at java.base/java.net.Socket.<init>(Socket.java:249)
+	at org.cs3.prolog.connector.internal.process.socket.ReusableSocket.<init>(ReusableSocket.java:31)
+	at org.cs3.prolog.connector.internal.process.socket.SocketClient.<init>(SocketClient.java:53)
+	at org.cs3.prolog.connector.internal.process.socket.SocketPrologProcess.getShutdownSession(SocketPrologProcess.java:251)
+	at org.cs3.prolog.connector.internal.process.AbstractPrologProcess$MyLifeCycle.getShutdownSession(AbstractPrologProcess.java:224)
+	at org.cs3.prolog.connector.internal.lifecycle.LifeCycleHookWrapper$3.run(LifeCycleHookWrapper.java:117)
+	... 1 more
+pdt: ----------------------------------
+pdt: Thu Dec 10 22:14:15 CET 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: ----------------------------------
+pdt: Thu Dec 10 22:14:15 CET 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: WARNING - 10/12 22:14:17 - Prolog Process Default Process Work: Prolog warnings and errors during initialization:
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: source_sink `library(helpidx)' does not exist
+
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: Goal (directive) failed: pdt_manual_entry:use_module(library(helpidx))
+
+
+pdt: ----------------------------------
+pdt: Mon Dec 14 13:41:39 CET 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: ----------------------------------
+pdt: Mon Dec 14 13:41:39 CET 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: WARNING - 14/12 13:41:42 - Prolog Process Default Process Work: Prolog warnings and errors during initialization:
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: source_sink `library(helpidx)' does not exist
+
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: Goal (directive) failed: pdt_manual_entry:use_module(library(helpidx))
+
+
+pdt: ----------------------------------
+pdt: Mon Dec 14 13:43:14 CET 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: ----------------------------------
+pdt: Mon Dec 14 13:43:14 CET 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: WARNING - 14/12 13:44:24 - Prolog Process Default Process Work: Prolog warnings and errors during initialization:
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: source_sink `library(helpidx)' does not exist
+
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: Goal (directive) failed: pdt_manual_entry:use_module(library(helpidx))
+
+

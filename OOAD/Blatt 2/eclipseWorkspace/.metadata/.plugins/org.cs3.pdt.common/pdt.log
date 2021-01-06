@@ -1,0 +1,80 @@
+pdt: ----------------------------------
+pdt: Mon Oct 19 10:56:02 CEST 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: ----------------------------------
+pdt: Mon Oct 19 10:56:02 CEST 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: WARNING - 19/10 10:56:12 - Prolog Process Default Process Work: Prolog warnings and errors during initialization:
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: source_sink `library(helpidx)' does not exist
+
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: Goal (directive) failed: pdt_manual_entry:use_module(library(helpidx))
+
+
+pdt: ----------------------------------
+pdt: Mon Oct 19 12:23:42 CEST 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: ----------------------------------
+pdt: Mon Oct 19 12:23:42 CEST 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: WARNING - 19/10 12:23:44 - Prolog Process Default Process Work: Prolog warnings and errors during initialization:
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: source_sink `library(helpidx)' does not exist
+
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: Goal (directive) failed: pdt_manual_entry:use_module(library(helpidx))
+
+
+pdt: ----------------------------------
+pdt: Mon Oct 19 12:26:01 CEST 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: ----------------------------------
+pdt: Mon Oct 19 12:26:01 CEST 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: WARNING - 19/10 12:26:03 - Prolog Process Default Process Work: Prolog warnings and errors during initialization:
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: source_sink `library(helpidx)' does not exist
+
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: Goal (directive) failed: pdt_manual_entry:use_module(library(helpidx))
+
+
+pdt: ----------------------------------
+pdt: Mon Oct 19 17:32:34 CEST 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: ----------------------------------
+pdt: Mon Oct 19 17:32:34 CEST 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: WARNING - 19/10 17:32:36 - Prolog Process Default Process Work: Prolog warnings and errors during initialization:
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: source_sink `library(helpidx)' does not exist
+
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: Goal (directive) failed: pdt_manual_entry:use_module(library(helpidx))
+
+
+pdt: ----------------------------------
+pdt: Tue Oct 20 15:29:51 CEST 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: ----------------------------------
+pdt: Tue Oct 20 15:29:51 CEST 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: WARNING - 20/10 15:29:53 - Prolog Process Default Process Work: Prolog warnings and errors during initialization:
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: source_sink `library(helpidx)' does not exist
+
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: Goal (directive) failed: pdt_manual_entry:use_module(library(helpidx))
+
+

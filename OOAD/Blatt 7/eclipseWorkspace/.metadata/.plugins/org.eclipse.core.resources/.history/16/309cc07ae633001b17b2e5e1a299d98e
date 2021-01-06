@@ -1,0 +1,5 @@
+package nutzerverwaltung.entity;
+
+public class Entwickler extends Nutzer {
+
+}

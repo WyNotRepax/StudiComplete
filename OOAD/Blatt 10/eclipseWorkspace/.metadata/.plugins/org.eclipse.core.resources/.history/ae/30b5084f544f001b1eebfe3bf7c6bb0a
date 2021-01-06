@@ -1,0 +1,24 @@
+package io.commands;
+
+import business.Rechner;
+
+public class Undo implements Command {
+	
+	private final int altAnzeige;
+	private final int altSpeicher
+	
+	public Undo(Rechner rechner) {
+		
+	}
+	
+	public Undo(int altAnzeige, int altSpeicher) {
+		this.altAnzeige = altAnzeige;
+		this.altSpeicher = altSpeicher;
+	}
+
+	@Override
+	public Command execute() {
+		Command ret = new  Undo(this.rechner);
+	}
+
+}

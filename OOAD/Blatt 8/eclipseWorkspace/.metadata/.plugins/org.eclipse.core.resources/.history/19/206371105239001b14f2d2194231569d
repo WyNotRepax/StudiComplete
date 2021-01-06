@@ -1,0 +1,16 @@
+package entity;
+
+public class Abteilungswhiteboard extends Whiteboard {
+	private int nummer;
+	private String name;
+	
+	public Abteilungswhiteboard(int abteilungsnummer, String abteilungsname) {
+		super();
+		this.nummer = abteilungsnummer;
+		this.name = abteilungsname;
+	}
+	
+	public void neueInformation(String information) {
+		this.observerInformieren(information);
+	}
+}

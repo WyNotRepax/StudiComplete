@@ -1,0 +1,9 @@
+package zustand;
+
+public class Zustand {
+	Map<Character,Zustand> schrittzustände;
+	
+	public Zustand schritt(char c) {
+		
+	}
+}

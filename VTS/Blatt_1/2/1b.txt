@@ -1,0 +1,40 @@
+route
+
+Kernel-IP-Routentabelle
+Ziel            Router          Genmask         Flags Metric Ref    Use Iface
+default         131.173.111.254 0.0.0.0         UG    0      0        0 enp0s25
+131.173.110.0   *               255.255.254.0   U     0      0        0 enp0s25
+link-local      *               255.255.0.0     U     1000   0        0 enp0s25
+
+default -> enp0s25
+
+ifconfig -a
+enp0s25   Link encap:Ethernet  Hardware Adresse 18:66:da:08:31:30  
+          inet Adresse:131.173.110.6  Bcast:131.173.111.255  Maske:255.255.254.0
+          inet6-Adresse: fe80::1a66:daff:fe08:3130/64 Gültigkeitsbereich:Verbindung
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metrik:1
+          RX-Pakete:428480 Fehler:0 Verloren:0 Überläufe:0 Fenster:0
+          TX-Pakete:180790 Fehler:0 Verloren:0 Überläufe:0 Träger:0
+          Kollisionen:0 Sendewarteschlangenlänge:1000 
+          RX-Bytes:461428543 (461.4 MB)  TX-Bytes:119084111 (119.0 MB)
+          Interrupt:20 Speicher:f7400000-f7420000 
+
+ens1      Link encap:Ethernet  Hardware Adresse a0:36:9f:a0:e4:2d  
+          BROADCAST MULTICAST  MTU:1500  Metrik:1
+          RX-Pakete:0 Fehler:0 Verloren:0 Überläufe:0 Fenster:0
+          TX-Pakete:0 Fehler:0 Verloren:0 Überläufe:0 Träger:0
+          Kollisionen:0 Sendewarteschlangenlänge:1000 
+          RX-Bytes:0 (0.0 B)  TX-Bytes:0 (0.0 B)
+          Speicher:f7200000-f72fffff 
+
+lo        Link encap:Lokale Schleife  
+          inet Adresse:127.0.0.1  Maske:255.0.0.0
+          inet6-Adresse: ::1/128 Gültigkeitsbereich:Maschine
+          UP LOOPBACK RUNNING  MTU:65536  Metrik:1
+          RX-Pakete:188 Fehler:0 Verloren:0 Überläufe:0 Fenster:0
+          TX-Pakete:188 Fehler:0 Verloren:0 Überläufe:0 Träger:0
+          Kollisionen:0 Sendewarteschlangenlänge:1000 
+          RX-Bytes:31371 (31.3 KB)  TX-Bytes:31371 (31.3 KB)
+
+enp0s25 Hardware Adresse 18:66:da:08:31:30
+

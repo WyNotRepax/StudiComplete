@@ -1,0 +1,16 @@
+package visitor;
+
+import interfaces.Visitor;
+import interfaces.Zutat;
+
+public class VisitorImperial implements Visitor {
+	
+	public static final double ML_TO_FLOZ = 0.033814
+
+	@Override
+	public String visit(Zutat zutat) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

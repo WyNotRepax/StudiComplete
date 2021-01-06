@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TeamTrainer</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="action_confirm">Bestätigen</string>
+    <string name="action_remove">Entfernen</string>
+    <string name="team_club_hint">Club Eingeben</string>
+    <string name="team_description_hint">Beschreibung Eingeben</string>
+    <string name="team_sport_hint">Sport Eingeben</string>
+    <string name="action_add_match">Spiel Hinzufügen</string>
+    <string name="action_add_player">Spieler Hinzufügen</string>
+    <string name="action_add_team">Neues team</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_edit">Bearbeiten</string>
+    <string name="action_hide">Verstecken</string>
+    <string name="action_move_player">Spieler in eine andere Mannschaft verschieben</string>
+    <string name="action_unhide">Versteckte Teams</string>
+    <string name="action_unhide_all">All Azeigen</string>
+    <string name="match_date_hint">Datum Eingeben</string>
+    <string name="match_date_label">Datum</string>
+    <string name="match_homegame_false">Auswärtsspiel</string>
+    <string name="match_homegame_switch">Heimspiel</string>
+    <string name="match_homegame_true">Heimspiel</string>
+    <string name="match_list_indicator">Spiele</string>
+    <string name="match_location_hint">Ort Eingeben</string>
+    <string name="match_location_label">Ort</string>
+    <string name="match_opponent_hint">Gegner Eingeben</string>
+    <string name="match_referee_hint">Schiedsrichter Eingeben</string>
+    <string name="match_referee_label">Schiedsrichter</string>
+    <string name="player_address_hint">Adresse Eingeben</string>
+    <string name="player_address_label">Adresse</string>
+    <string name="player_email_hint">E-Mail</string>
+    <string name="player_email_label">E-Mail</string>
+    <string name="player_first_name_hint">Vornamen Eingeben</string>
+    <string name="player_last_name_hint">Nachnamen Eingeben</string>
+    <string name="player_list_indicator">Spieler</string>
+    <string name="player_nr_hint">Spielernummer Eingeben</string>
+    <string name="player_number_label">Spielernummer</string>
+    <string name="player_phone_hint">Telefonnummer Eingeben</string>
+    <string name="player_phone_label">Telefonnummer</string>
+    <string name="team_list_indicator">Mannschaften</string>
+    <string name="warning_back">Nochmal zurück zum Abbrechen</string>
+    <string name="warning_delete">Soll die Mannschaft gelöscht werden oder nur versteckt?</string>
+</resources>

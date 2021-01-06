@@ -1,0 +1,10 @@
+1. | 053f | 4.23423 | ------HalloWelt
+2. | 85ba | 4323.12 | ---C++machtSpaﬂ
+3. | ffaf | 4.30658 | --------Testing
+4. | 0d54 | 1.23457 | abcderfghijklmn
+5. | ffff | 5.36209 | ----Hexadezimal
+6. | 7e56 | 3423.34 | -----Referenzen
+7. | 266a | 9.93434 | --------yxzuerf
+8. | 0ca2 | 9883.32 | -ABCDERFGHIJKLM
+9. | 00d5 | 3.14159 | -------Beispiel
+Hallo

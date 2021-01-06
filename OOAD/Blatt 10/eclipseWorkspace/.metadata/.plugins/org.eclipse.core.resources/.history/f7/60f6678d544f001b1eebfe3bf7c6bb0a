@@ -1,0 +1,19 @@
+package io.commands;
+
+import business.Rechner;
+
+public class Reset implements Command {
+
+	private Rechner rechner;
+	
+	public Reset(Rechner rechner) {
+		this.rechner = rechner;
+	}
+	
+	@Override
+	public void execute() {
+		rechner.setSpeicher(0);
+		rechner.setAnzeige(0);
+	}
+
+}

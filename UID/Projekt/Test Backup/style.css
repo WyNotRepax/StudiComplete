@@ -1,0 +1,136 @@
+main {
+    z-index: 0;
+}
+
+.bs-projekt {
+    margin-bottom: 30px;
+}
+
+.bs-projekt-image {
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.bs-preview-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+    cursor: pointer;
+}
+
+.bs-fullheight {
+    height: 100%;
+}
+
+.bs-iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.bs-preview-content {
+    height: 98%;
+    padding-top: 1%;
+}
+
+.bs-close-button {
+    z-index: 2;
+    position: relative;
+    top: 0;
+    float: right;
+    color: black;
+}
+
+.bs-spacer{
+    height:56px;
+    margin: 0.25rem;
+}
+
+.bs-scrolltrigger{
+    cursor: pointer;
+}
+
+.bs-supercontainer-outer{
+    overflow: hidden;
+    padding:0;
+}
+
+.bs-supercontainer-inner{
+    position: relative;
+    margin:0;
+    padding:0;
+    width:300%;
+}
+
+.bs-supercontainer-item{
+    display: inline-block;
+    width:33.33%;
+}
+
+@keyframes bs01{
+    from{left:0%}
+    to{left:-100%}
+}
+@keyframes bs02{
+    from{left:0%}
+    to{left:-200%}
+}
+@keyframes bs10{
+    from{left:-100%}
+    to{left:0%}
+}
+@keyframes bs12{
+    from{left:-100%}
+    to{left:-200%}
+}
+@keyframes bs20{
+    from{left:-200%}
+    to{left:0%}
+}
+@keyframes bs21{
+    from{left:-200%}
+    to{left:-100%}
+}
+
+.bs-horizontalscroll00{
+    left:0%;
+}
+.bs-horizontalscroll01{
+    left:-100%;
+    animation: bs01 1s ease;
+}
+.bs-horizontalscroll02{
+    left:-200%;
+    animation: bs02 1s ease;
+}
+.bs-horizontalscroll10{
+    left:0%;
+    animation: bs10 1s ease;
+}
+.bs-horizontalscroll11{
+    left:-100%;
+}
+.bs-horizontalscroll12{
+    left:-200%;
+    animation: bs12 1s ease;
+}
+.bs-horizontalscroll20{
+    left:0%;
+    animation: bs10 1s ease;
+}
+.bs-horizontalscroll21{
+    left:-100%;
+    animation: bs12 1s ease;
+}
+.bs-horizontalscroll22{
+    left:-200%;
+}
+
+
+
+

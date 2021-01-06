@@ -1,0 +1,15 @@
+
+public class Enkel extends Sohn{
+
+	public Enkel(long a) {
+		super(a);
+	}
+	
+	public void summe() {
+		double sum = 0;
+		sum += super.a;
+		sum += super.x;
+		sum += 
+	}
+
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="Remote Host (a7702a75-7f01-4632-821a-7e93af50f363)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/JSONParse" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

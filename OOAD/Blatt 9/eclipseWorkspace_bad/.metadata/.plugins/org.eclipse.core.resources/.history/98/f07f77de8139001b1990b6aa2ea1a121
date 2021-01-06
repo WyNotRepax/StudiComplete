@@ -1,0 +1,11 @@
+package zustand;
+
+import java.util.Map;
+
+public class Zustand {
+	private Map<Character,Zustand> schrittzustände;
+	
+	public Zustand schritt(char c) {
+		
+	}
+}

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Benno Steinkamp" />
+  <title>Stundenplan</title>
+  <!--<link rel="stylesheet" type="text/css" href="./style.css" />-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" />
+  <link href="./font/shlop.css" rel="stylesheet" />
+  <style>
+    :root{
+      --main-color: hsl(0, 0%, 20%);
+      --text-color-main: whitesmoke;
+      --text-color-heading: darkred;
+      --background-mixer: rgba(255,255,255,0.4);
+    }
+
+    body,
+    html {
+      font-family: "Roboto", sans-serif;
+      color: var(--text-color-main);
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      background-color: var(--main-color);
+      margin: 0px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .bg-image {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      /* The image used */
+      background-image: url("img/begrifflich-dunn-gefahr-271265.jpg");
+
+      /* Add the blur effect */
+      filter: grayscale(1) blur(10px);
+      /*-webkit-filter: blur(10px);*/
+
+      /* Full height */
+      height: 100%;
+      width: 100%;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      background-color: var(--main-color);
+      background-blend-mode:darken;
+
+      z-index: -1;
+    }
+
+    .content {
+      background-color: transparent;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      padding: 5%;
+      width: 100%;
+      height: 100%;
+    }
+
+    h1 {
+      font-family: "shlop", sans-serif;
+      text-align: center;
+      background-color: var(--background-mixer);
+      font-variant: small-caps;
+      color: var(--text-color-heading);
+      font-size: 50px;
+      letter-spacing: 5px;
+      min-width: 300px;
+    }
+
+    nav {
+      min-width: 485px;
+      background-color: var(--background-mixer);
+      color: var(--text-color-heading);
+    }
+
+    nav table {
+      width: 100%;
+    }
+
+    nav table tr td {
+      text-align: center;
+    }
+
+    nav table tr td:hover,
+    .current {
+      background-color: var(--background-mixer);
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .text {
+      min-width: 485px;
+    }
+
+    iframe {
+      background-color: white;
+      margin-top: 0.5cm;
+      width: 100%;
+      height: 100%;
+    }
+
+    .aspect-ratio {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-bottom: 141%;
+    }
+
+    .aspect-ratio iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .stundenplan,
+    .contact {
+      margin: 0.5cm 0cm 0cm 0cm;
+      padding: 0px;
+      background-color: var(--background-mixer);
+      min-width: 850px;
+    }
+    .stundenplan table {
+      width: 100%;
+    }
+    .stundenplan table tr {
+      height: 1cm;
+    }
+    .stundenplan table tr td {
+      width: 12.5%;
+      border: 1px solid var(--background-mixer);
+    }
+    .stundenplan table tr th {
+      width: 12.5%;
+      background-color: var(--background-mixer);
+    }
+
+    .contact table {
+      width: 100%;
+    }
+
+    .contact table tr td{
+      width: 50%;
+    }
+
+    .profilepic {
+      text-align: right;
+    }
+
+    .heart {
+      background-image:url("img/kontaktbild.jpg");
+      background-repeat:no-repeat;
+      background-size:cover;
+      height:6cm;
+      width:4.5cm;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="bg-image"></div>
+  <div class="content">
+    <h1>Stundenplan</h1>
+    <nav>
+      <table>
+        <tr>
+          <td><a href="./index.html">Startseite</a></td>
+          <td><a href="./aufgabe01.html">Aufgabe 1</a></td>
+          <td><a href="./aufgabe02.html">Aufgabe 2</a></td>
+          <td class="current">
+            <a href="./stundenplan.html"><strong>Stundenplan</strong></a>
+          </td>
+          <td><a href="./kontaktinformation.html">Kontaktinformation</a></td>
+        </tr>
+      </table>
+    </nav>
+    <div class="stundenplan">
+      <table>
+        <tr>
+          <th>Zeit</th>
+          <th>Montag</th>
+          <th>Dienstag</th>
+          <th>Mittwoch</th>
+          <th>Donnerstag</th>
+          <th>Freitag</th>
+          <th>Samstag</th>
+          <th>Sonntag</th>
+        </tr>
+        <tr>
+          <th>8:00 - 9:30</th>
+          <td>Mathematik I</td>
+          <td>Mathematik I</td>
+          <td>Mathematik Übung</td>
+          <td>Mathematik I</td>
+          <td>Programmierung I (Vorlesung)</td>
+          <td rowspan="2">Methoden</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>10:00 - 11:30</th>
+          <td>Programmierung I (Vorlesung)</td>
+          <td>Technische Grundlagen Medieninformatik</td>
+          <td>Technische Grundlagen Medieninformatik</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>12:15 - 13:45</th>
+          <td></td>
+          <td>Grundlagen User Interface Entwicklung (Praktikum)</td>
+          <td>Grundlagen User Interface Entwicklung (Vorlesung)</td>
+          <td>Programmierung 1 (Vorlesung)</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>14:30 - 16:00</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>16:30 - 18:00</th>
+          <td></td>
+          <td>Programmierung 1 (Praktikum)</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <input type="button" id="button" value="Lieblingsmodul" onclick="eval(atob('ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImJ1dHRvbiIpLnZhbHVlID0gKGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJidXR0b24iKS52YWx1ZSA9PSAiTGllYmxpbmdzbW9kdWwiICkgPyAiUHJvZ3JhbW1pZXJlbiBJIiA6ICJMaWVibGluZ3Ntb2R1bCI='))" />
+    </div>
+  </div>
+</body>
+
+</html>

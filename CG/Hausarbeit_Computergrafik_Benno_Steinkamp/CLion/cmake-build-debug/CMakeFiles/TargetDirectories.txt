@@ -1,0 +1,3 @@
+C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/CMakeFiles/CLion.dir
+C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

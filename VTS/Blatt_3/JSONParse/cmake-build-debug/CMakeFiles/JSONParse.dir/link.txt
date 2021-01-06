@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libJSONParse.a  CMakeFiles/JSONParse.dir/library.cpp.obj CMakeFiles/JSONParse.dir/JsonObject.cpp.obj
+C:\MinGW\bin\ranlib.exe libJSONParse.a

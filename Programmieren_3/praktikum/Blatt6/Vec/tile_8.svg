@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="1.1" baseProfile="tiny"
+    width="100mm" height="100mm"
+    viewBox="0 0 100 100"
+>
+    <title>Tile 8</title>
+    <polygon points="5,15 15,5 25,5 25,95 15,95 5,85 5,60 15,50 5,40" stroke="none" stroke-width="1" fill="darkgray"/>
+    <polygon points="20,5 85,5 95,15 95,40 85,50 95,60 95,85 85,95 20,95 20,75 75,75 75,60 20,60 20,40 75,40 75,25 20,25" stroke="none" stroke-width="1" fill="darkgray"/>
+
+</svg>

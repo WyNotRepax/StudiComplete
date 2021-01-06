@@ -1,0 +1,321 @@
+a {
+    /*Alle Links sollen immer den Auswahlcursor zeigen auch ohne href*/
+    cursor: pointer !important;
+}
+
+.bs-supercontainer-outer {
+    /*Spacing für nav-Bereich*/
+    margin-top: 56px;
+    overflow: hidden;
+    padding: 0;
+    padding-top: 15px;
+    z-index: 0;
+}
+
+.bs-supercontainer-inner {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /*Platz für 3 100% breite Webseiten nebeneinander*/
+    width: 300%;
+    height: 100%;
+}
+
+.bs-projekt {
+    margin-bottom: 30px;
+}
+
+.bs-projekt-image {
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.bs-preview-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    display: none;
+    cursor: pointer;
+    overflow: auto;
+}
+
+.bs-preview-container * {
+    cursor: default;
+}
+
+.bs-fullheight {
+    height: 100%;
+}
+
+
+.bs-iframe {
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.bs-supercontainer-item {
+    height: 100%;
+    float: left;
+    width: 33.33333333333333333333%;
+    padding-bottom: 15px;
+}
+
+.bs-shadow {
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*Animationen für den übergang zwischen zwei Seiten */
+@keyframes bs01 {
+    from {
+        left: 0%
+    }
+
+    to {
+        left: -100%
+    }
+}
+
+@keyframes bs02 {
+    from {
+        left: 0%
+    }
+
+    to {
+        left: -200%
+    }
+}
+
+@keyframes bs10 {
+    from {
+        left: -100%
+    }
+
+    to {
+        left: 0%
+    }
+}
+
+@keyframes bs12 {
+    from {
+        left: -100%
+    }
+
+    to {
+        left: -200%
+    }
+}
+
+@keyframes bs20 {
+    from {
+        left: -200%
+    }
+
+    to {
+        left: 0%
+    }
+}
+
+@keyframes bs21 {
+    from {
+        left: -200%
+    }
+
+    to {
+        left: -100%
+    }
+}
+
+/*Tasächliche animationsklassen die mithilfe von "bs_scroll.js" auf Elemente angewendet werden*/
+.bs-horizontalscroll00 {
+    left: 0%;
+}
+
+.bs-horizontalscroll01 {
+    left: -100%;
+    animation: bs01 1s ease;
+}
+
+.bs-horizontalscroll02 {
+    left: -200%;
+    animation: bs02 1s ease;
+}
+
+.bs-horizontalscroll10 {
+    left: 0%;
+    animation: bs10 1s ease;
+}
+
+.bs-horizontalscroll11 {
+    left: -100%;
+}
+
+.bs-horizontalscroll12 {
+    left: -200%;
+    animation: bs12 1s ease;
+}
+
+.bs-horizontalscroll20 {
+    left: 0%;
+    animation: bs20 1s ease;
+}
+
+.bs-horizontalscroll21 {
+    left: -100%;
+    animation: bs21 1s ease;
+}
+
+.bs-horizontalscroll22 {
+    left: -200%;
+}
+
+/*nicht angezeigte Teile der Webseite werden auf 1px höhe reduziert um Sitenhöhe an den aktiven Teil der Webseite anzupassen*/
+@keyframes bsShrink {
+    from {
+        max-height: 5000px
+    }
+
+    to {
+        max-height: 1px
+    }
+}
+
+@keyframes bsExpand {
+    from {
+        max-height: 1px
+    }
+
+    to {
+        max-height: 5000px
+    }
+}
+
+.bs-supercontainer-item-inactive {
+    max-height: 1px;
+    overflow: hidden;
+    animation: bsShrink 1s linear;
+}
+
+.bs-supercontainer-item-active {
+    animation: bsExpand 1s linear;
+}
+
+.bs-contactimg {
+    border-color: #fff;
+    border-width: 10px;
+    border-style: solid;
+}
+
+/* Automatisch Abschneidende Textboxen mit "..." am Ende*/
+/* Code Partially copied from http://hackingui.com/front-end/a-pure-css-solution-for-multiline-text-truncation/ */
+/* create the ... */
+.block-with-text:before {
+    /* points in the end */
+    content: '...';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of block */
+    right: 0;
+    bottom: 0;
+}
+
+/* hide ... if we have text, which is less than or equal to max lines */
+.block-with-text:after {
+    /* points in the end */
+    content: '';
+    /* absolute position */
+    position: absolute;
+    /* set position to right bottom corner of text */
+    right: 0;
+    /* set width and height */
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    /* bg color = bg color under block */
+    background: white;
+}
+
+.block-with-text {
+    /* hide text if it more than N lines  */
+    overflow: hidden;
+    /* for set '...' in absolute position */
+    position: relative;
+    /* use this value to count block height */
+    line-height: 1.5em;
+    /* max-height = line-height (1.2) * lines max number (3) */
+    max-height: calc(1.5em * 10);
+    /* fix problem when last visible word doesn't adjoin right side  */
+    text-align: left;
+    /* place for '...' */
+    margin-right: -1em;
+    padding-right: 1em;
+}
+
+/*Responsive Zeilenzahl*/
+@media (min-width: 576px) {
+    .block-with-text {
+        /* max-height = line-height (1.5) * lines max number (3) */
+        max-height: calc(1.5em * 9);
+    }
+
+    .block-with-textx3 {
+        max-height: calc(1.5em * 9);
+    }
+}
+
+@media(min-width: 768px) {
+    .block-with-text {
+        /* max-height = line-height (1.5) * lines max number (3) */
+        max-height: calc(1.5em * 13);
+    }
+
+    .block-with-textx3 {
+        max-height: calc(1.5em * 13);
+    }
+}
+
+@media(min-width: 992px) {
+    .block-with-text {
+        /* max-height = line-height (1.5) * lines max number (3) */
+        max-height: calc(1.5em * 9);
+    }
+
+    .block-with-textx3 {
+        max-height: calc(1.5em * 9 * 3);
+    }
+}
+
+@media (min-width: 1200px) {
+    .block-with-text {
+        /* max-height = line-height (1.5) * lines max number (3) */
+        max-height: calc(1.5em * 11);
+    }
+
+    .block-with-textx3 {
+        max-height: calc(1.5em * 11 * 3);
+    }
+}
+
+.bs-button {
+    width: 100%;
+}
+
+.bs-button-close {
+    width: 100%;
+}
+
+/* Lässt Button verschwinden, wenn der Bildschirm breit genug ist*/
+@media(min-width: 576px) {
+    .bs-button-close {
+        display: none;
+    }
+}
+
+
+.bs-source-table tr td {
+    width: 33.3%
+}

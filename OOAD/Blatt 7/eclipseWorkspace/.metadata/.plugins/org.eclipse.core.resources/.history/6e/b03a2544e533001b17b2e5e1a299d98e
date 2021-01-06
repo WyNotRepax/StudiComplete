@@ -1,0 +1,11 @@
+package nutzerverwaltung.entity;
+
+public class Systemadministrator extends Nutzer {
+	public Systemadministrator() {
+		super();
+	}
+
+	public Systemadministrator(String login, String passwort) {
+		this();
+	}
+}

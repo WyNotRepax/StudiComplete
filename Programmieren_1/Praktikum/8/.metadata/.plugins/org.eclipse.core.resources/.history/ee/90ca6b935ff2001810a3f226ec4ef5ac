@@ -1,0 +1,58 @@
+
+public class TestClass {
+	public static void main(String[] args) {
+		{
+			Menge m = new Menge();
+			if (m == null) {
+				System.out.println("Fehler a): Menge wird \"null\"!");
+			} else {
+				System.out.println("a) überprüft keinen Fehler gefunden!");
+			}
+		}
+		{
+			Menge m1 = new Menge();
+			Person p = new Person("Eine", "Person");
+			m1.addPerson(p);
+			Menge m2 = new Menge(m1);
+			if (!m2.contains(p)) {
+				System.out.println("Fehler in b): nicht alle Personen werden Kopiert!");
+			} else {
+				System.out.println("b) überprüft keinen Fehler gefunden!");
+			}
+		}
+		{
+			Menge m = new Menge();
+			Person p = new Person("Eine", "Person");
+			m.addPerson(p);
+			if (!m.contains(p)) {
+				System.out.println("Fehler in d): Personen wird ncht Hinzugefügt!");
+			} else {
+				System.out.println("d) überprüft keinen Fehler gefunden!");
+			}
+		}
+		{
+			Menge m = new Menge();
+			Person p = new Person("Eine", "Person");
+			m.addPerson(p);
+			m.removePerson(p);
+			if (m.contains(p)) {
+				System.out.println("Fehler in e): Person wird nicht entfernt!");
+			} else {
+				System.out.println("e) überprüft keinen Fehler gefunden!");
+			}
+		}
+		{
+			Menge m = new Menge();
+			Person p1 = new Person("Person", "Eins");
+			m.addPerson(p1);
+			if (!m.contains("Person", "Eins")) {
+				System.out.println("Fehler in f): Falsch negativ!");
+			} else if (m.contains("Andere", "Person")) {
+				System.out.println("Fehler in f): Falsch positiv!");
+			} else {
+
+			}
+		}
+
+	}
+}

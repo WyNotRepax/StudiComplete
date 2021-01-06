@@ -1,0 +1,10 @@
+package nutzerverwaltung.entity;
+
+public class Entwickler extends Nutzer {
+	public Entwickler() {
+		super();
+	}
+	public Entwickler(String login, String passwort) {
+		super(login,passwort);
+	}
+}

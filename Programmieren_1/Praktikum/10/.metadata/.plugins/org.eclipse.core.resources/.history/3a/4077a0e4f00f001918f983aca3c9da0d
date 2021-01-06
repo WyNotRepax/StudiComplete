@@ -1,0 +1,54 @@
+
+public class Ordnungsfrage extends Frage {
+	static String text = "Ordnen Sie die folgenden deutschen Städte von Nord nach Süd!";
+
+	String[] antworten;
+	int[] indices;
+
+	Ordnungsfrage(int punkte, String[] antworten, int[] indices) {
+		super(text, punkte);
+		this.antworten = antworten;
+		this.indices = indices;
+	}
+
+	@Override
+	void frageStellen() {
+		super.frageStellen();
+		for (int i = 0; i < antworten.length; i++) {
+			IO.println("(" + i + ") : " + antworten[i]);
+		}
+	}
+
+	@Override
+	void frageBeantworten(Pruefling person) {
+		int[] eingabe = new int[indices.length];
+		for (int i = 0; i < indices.length; i++) {
+			eingabe[i] = IO.readInt((i + 1) + ". :");
+			while (true) {
+				boolean unique = true;
+				for (int n = 0; n < i; n++) {
+					if (eingabe[n] == eingabe[i]) {
+						unique = false;
+						break;
+					}
+				}
+				if (unique) {
+					break;
+				} else {
+					eingabe[i] = IO.readInt("Antwort bereits gegeben! Auswahl:");
+				}
+			}
+		}
+		int richtig = 0;
+		for(int i = 0; i < indices.length; i++){
+			
+		}
+		if () {
+			IO.println("Richt. Antw.: " + punkte + " Punkte");
+			person.neuePunkte(this.punkte);
+		} else {
+			IO.println("Falsche Antwort: 0 Punkte");
+		}
+	}
+
+}

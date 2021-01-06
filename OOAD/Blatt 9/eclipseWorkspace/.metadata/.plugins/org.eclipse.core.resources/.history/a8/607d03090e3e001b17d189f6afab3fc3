@@ -1,0 +1,5 @@
+package Ausruestung;
+
+public class Ruestung extends Ausruestung {
+
+}

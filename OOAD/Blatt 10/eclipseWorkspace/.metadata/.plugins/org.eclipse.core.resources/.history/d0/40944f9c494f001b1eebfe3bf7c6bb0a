@@ -1,0 +1,26 @@
+package main;
+
+import entity.Feststoff;
+import entity.Fluessigkeit;
+import interfaces.Zutat;
+
+public class Main {
+
+  public static void main(String[] args) {
+    Zutat[] tmp = {new Feststoff("Mehl", 400), new Feststoff("Salz", 200)
+        , new Fluessigkeit("Wasser", 500), new Fluessigkeit("Oel", 45)
+        , new Feststoff("Zitronensaeure", 40)};
+    
+    // Ausgabe mit einem Visitor
+    Visitor Visitor = new VisitorSI();
+    for(Zutat z: tmp) {
+
+    }
+    
+    // Ausgabe mit anderem Visitor
+    for(Zutat z: tmp) {
+
+    }
+  }
+
+}

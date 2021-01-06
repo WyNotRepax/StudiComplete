@@ -1,0 +1,7 @@
+package main;
+
+public class Ausgabe {
+	public static void printBegruessung() {
+        System.out.println("Verwaltung von Leistungspunkten");
+	}
+}

@@ -1,0 +1,36 @@
+package visitor;
+
+import entity.Feststoff;
+import entity.Fluessigkeit;
+import interfaces.Visitor;
+import interfaces.Zutat;
+
+public class VisitorImperial implements Visitor {
+	
+	public static final float ML_TO_FLOZ = 0.033814f;
+	public static final float OZ_TO_G = 28.349523125f;
+	public static final float G_TO_OZ = 1.0f/OZ_TO_G;
+
+	@Override
+	public String visit(Zutat zutat) {
+		if (zutat instanceof Feststoff) {
+			return this.visit((Feststoff) zutat);
+		}
+		if (zutat instanceof Fluessigkeit) {
+			return this.visit((Fluessigkeit) zutat);
+		}
+		System.err.printf("VisitorImperial unterstützt nur Feststoffe (%s), und Fluessigkeiten (%s)\n",
+				Feststoff.class.getCanonicalName(), Fluessigkeit.class.getCanonicalName());
+		return "";
+	}
+	
+	private String visit(Fluessigkeit fluessigkeit) {
+		return String.format("%s: %f fl oz",fluessigkeit.getName(),(fluessigkeit.getMl() * ML_TO_FLOZ));
+
+	}
+
+	private String visit(Feststoff feststoff) {
+		return String.format("%s: %f oz",feststoff.getName(),(feststoff.getGramm() * G_TO_OZ));
+	}
+
+}

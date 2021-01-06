@@ -1,0 +1,1 @@
+-lopengl32 ../../thirdparty/freeimage/lib/FreeImage.lib ../../thirdparty/assimp/lib/assimp-vc140-mt.lib ../../thirdparty/glfw/lib/glfw3dll.lib ../../thirdparty/glew/lib/glew32.lib -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

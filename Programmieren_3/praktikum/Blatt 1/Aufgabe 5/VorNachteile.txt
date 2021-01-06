@@ -1,0 +1,7 @@
+Vorteile:
+    - Projektstruktur weniger Komplex (Spart 2 - 3 Dateien)
+    - Macht die Unterklassen von außen unsichtbar
+Nachteile:
+    - Orchester-Klasse wird Komplexer/Unübersichtlicher
+    - Keine wiederverwendbarkeit der Unterklassen
+    - Möglicherweise doppelter Code

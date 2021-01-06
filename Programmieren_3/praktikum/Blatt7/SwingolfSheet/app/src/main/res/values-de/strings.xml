@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Swingolf Zettel</string>
+    <string name="name">Name</string>
+    <string name="sheetHoleNum">Anzahl der Löcher</string>
+    <string name="players">Spieler</string>
+    <string name="addPlayer">Spieler hinzufügen</string>
+    <string name="holes">Löcher</string>
+    <string name="addHole">Loch hinzufügen</string>
+    <string name="par">Par</string>
+    <string name="holeNr">Loch</string>
+</resources>

@@ -1,0 +1,7 @@
+package zustand;
+
+public class Zustand {
+	public Zustand getNext(char c) {
+		
+	}
+}

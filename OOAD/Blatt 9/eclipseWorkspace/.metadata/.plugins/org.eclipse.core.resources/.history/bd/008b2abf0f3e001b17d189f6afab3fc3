@@ -1,0 +1,34 @@
+/**
+ * Author: Benno Steinkamp
+ * Date: 14.12.2020
+ */
+package Kaempfer;
+
+import javax.naming.OperationNotSupportedException;
+
+import Ausruestung.Ruestung;
+import Ausruestung.Waffe;
+
+/**
+ * @author benno
+ *
+ */
+public class Blobb extends Kaempfer {
+	private Waffe waffe;
+
+	public Blobb(int gesundheit, int geschick, int sold) {
+		super(gesundheit, geschick, sold);
+	}
+
+	@Override
+	public void nimmWaffe(Waffe w) {
+		this.waffe = w;
+
+	}
+
+	@Override
+	public void nimmRuestung(Ruestung r) {
+
+	}
+
+}

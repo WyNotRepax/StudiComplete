@@ -1,0 +1,48 @@
+pdt: ----------------------------------
+pdt: Tue Dec 01 14:20:18 CET 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: ----------------------------------
+pdt: Tue Dec 01 14:20:18 CET 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: WARNING - 01/12 14:20:30 - Prolog Process Default Process Work: Prolog warnings and errors during initialization:
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: source_sink `library(helpidx)' does not exist
+
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: Goal (directive) failed: pdt_manual_entry:use_module(library(helpidx))
+
+
+pdt: ----------------------------------
+pdt: Tue Dec 01 16:25:56 CET 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: ----------------------------------
+pdt: Tue Dec 01 16:25:56 CET 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: WARNING - 01/12 16:26:06 - Prolog Process Default Process Work: Prolog warnings and errors during initialization:
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: source_sink `library(helpidx)' does not exist
+
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: Goal (directive) failed: pdt_manual_entry:use_module(library(helpidx))
+
+
+pdt: ----------------------------------
+pdt: Tue Dec 08 12:40:51 CET 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: ----------------------------------
+pdt: Tue Dec 08 12:40:51 CET 2020
+pdt: ----------------------------------
+pdt: set debug output to LOGFILE
+pdt: WARNING - 08/12 12:40:52 - Prolog Process Default Process Work: Prolog warnings and errors during initialization:
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: source_sink `library(helpidx)' does not exist
+
+Location: c:/users/benno/onedrive/studi/ooad/kleukersseu/eclipse/plugins/org.cs3.pdt.common_3.1.2.201504300958/pl/pdt_manual_entry.pl:22
+Message: Goal (directive) failed: pdt_manual_entry:use_module(library(helpidx))
+
+

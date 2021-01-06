@@ -1,0 +1,23 @@
+Adresse:
+ip1: 0x65fe40
+ip2: 0x65fe38
+i1: 0x65fe4c
+i2: 0x65fe48
+
+t1:
+ip1: 0x65fe4c
+ip2: 0x65fe48
+i1: 0
+i2: 0
+
+t2:
+ip1: 0x65fe4c
+ip2: 0x65fe48
+i1: 18
+i2: 123
+
+t3:
+ip1: 0x65fe4c
+ip2: 0x65fe48
+i1: 123
+i2: 18

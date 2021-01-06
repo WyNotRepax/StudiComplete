@@ -1,0 +1,24 @@
+
+package nutzerverwaltung.entity;
+
+import java.util.List;
+
+public class Zugriffsverwaltung {
+	private Nutzer aktuellerNutzer;
+	private List<Nutzer> nutzer;
+	public Zugriffsverwaltung() {
+		// TODO Auto-generated constructor stub
+	}
+	public boolean authentifizieren(String login, String passwort) {
+		
+	}
+	public boolean entwicklerHinzufuegen(String login, String passwort) {
+		
+	}
+	public boolean nutzerAendern(String altesLogin, String neuesLogin) {
+		
+	}
+	public void nutzerAnzeigen() {
+		
+	}
+}

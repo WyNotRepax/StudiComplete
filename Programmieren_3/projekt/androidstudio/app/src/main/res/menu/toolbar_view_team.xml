@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionDeleteTeam"
+        android:title="@string/action_delete"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/actionEditTeam"
+        android:title="@string/action_edit"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/actionAddPlayer"
+        android:title="@string/action_add_player"
+        app:showAsAction="collapseActionView" />
+
+    <item android:id="@+id/actionAddMatch"
+        android:title="@string/action_add_match"
+        app:showAsAction="collapseActionView"/>
+
+</menu>

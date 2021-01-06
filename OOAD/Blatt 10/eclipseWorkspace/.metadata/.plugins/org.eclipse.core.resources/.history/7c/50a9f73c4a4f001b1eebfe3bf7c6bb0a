@@ -1,0 +1,32 @@
+package visitor;
+
+import entity.Feststoff;
+import entity.Fluessigkeit;
+import interfaces.Visitor;
+import interfaces.Zutat;
+
+public class VisitorSI implements Visitor {
+
+	@Override
+	public String visit(Zutat zutat) {
+		if(zutat instanceof Feststoff) {
+			return this.visit((Feststoff)zutat);
+		}
+		if(zutat instanceof Fluessigkeit) {
+			return this.visit((Fluessigkeit)zutat);
+		}
+		System.err.printf("VisitorSI unterstützt nur Feststoffe (%s), und Fluessigkeiten (%s)\n",Feststoffe.class.getCanonicalName(),Fluessigkeit.class.getCanonicalName());
+		return "";
+	}
+	
+	private String visit(Fluessigkeit fluessigkeit) {
+		return "FLUESSIGKEIT";
+		
+	}
+	
+	private String visit(Feststoff feststoff) {
+		return "FESTSTOFF";
+		
+	}
+	
+}

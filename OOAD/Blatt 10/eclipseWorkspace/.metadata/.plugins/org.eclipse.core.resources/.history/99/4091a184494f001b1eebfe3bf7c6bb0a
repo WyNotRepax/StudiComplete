@@ -1,0 +1,26 @@
+package visitor;
+
+import entity.Feststoff;
+import entity.Fluessigkeit;
+import interfaces.Visitor;
+import interfaces.Zutat;
+
+public class VisitorSI implements Visitor {
+
+	@Override
+	public String visit(Zutat zutat) {
+		// TODO Auto-generated method stub
+		return "ZUTAT";
+	}
+	
+	public String visit(Fluessigkeit fluessigkeit) {
+		return "FLUESSIGKEIT";
+		
+	}
+	
+	public String visit(Feststoff feststoff) {
+		return null;
+		
+	}
+	
+}

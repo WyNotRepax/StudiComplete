@@ -1,0 +1,25 @@
+package nutzerverwaltung.entity;
+
+public class Projektadministrator extends Nutzer {
+	public Projektadministrator() {
+		super();
+	}
+	public Projektadministrator(String login, String passwort) {
+		super(login, passwort);
+	}
+	@Override
+	public boolean darfDatenBearbeiten() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public boolean darfTabellenBearbeiten() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public boolean darfNutzerAnlegen() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+}

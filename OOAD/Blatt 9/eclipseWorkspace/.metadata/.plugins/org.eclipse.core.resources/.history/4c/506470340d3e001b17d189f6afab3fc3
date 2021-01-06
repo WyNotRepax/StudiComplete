@@ -1,0 +1,28 @@
+/**
+ * Author: Benno Steinkamp
+ * Date: 14.12.2020
+ */
+package Kaempfer;
+
+public abstract class Kaempfer {
+	protected int gesundheit;
+	protected int geschick;
+	protected int sold;
+	
+	public Kaempfer(int gesundheit, int geschick, int sold) {
+		this.gesundheit = gesundheit;
+		// 0 <= geschick <= 10;
+		this.geschick = Math.max(0, Math.min(geschick, 10));
+		this.sold = sold;
+	}
+	
+	public int kaempfen() {
+		//TODO: implement this
+		return 0;
+	}
+	
+	public int abwehren() {
+		//TODO: implement this
+		return 0;
+	}
+}

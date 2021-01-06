@@ -1,0 +1,6 @@
+(1) Syntaktisch korrekt.
+(2) Syntaktisch korrekt.
+(3) Nicht korrekt, da der Identifier mit $, a oder b beginnen muss aber mit einer 0 beginnt.
+(4) Nicht korrekt, da auf den Identifier "aaa" kein "," folgen kann.
+(5) Nicht korrekt, da "InterfaceMod" kein gültiges terminal ist und nicht aus gültigen Terminalen zusammengesetzt werden kann.
+(6) Nicht korrekt, da nur maximal ein InterfaceMod vor "interface" stehen darf.

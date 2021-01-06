@@ -1,0 +1,6 @@
+﻿  Ringliste.cpp
+  Code wird generiert...
+  Überspringen... (keine relevanten Änderungen gefunden)
+  RinglisteSpielerei.cpp
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "_WinMain@16" in Funktion ""int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)".
+Z:\Studi\Programmieren 2\Praktikum\vs\Blatt 5\Debug\A2.exe : fatal error LNK1120: 1 nicht aufgelöste Externe

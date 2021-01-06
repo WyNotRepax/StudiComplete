@@ -1,0 +1,10 @@
+
+public class Ordnungsfrage extends Frage {
+	static String text = "Ordnen Sie die folgenden deutschen Städte von Nord nach Süd!";
+
+	Ordnungsfrage(int punkte, String[] antworten, int[] indices) {
+		super(text, punkte);
+		// TODO Auto-generated constructor stub
+	}
+
+}

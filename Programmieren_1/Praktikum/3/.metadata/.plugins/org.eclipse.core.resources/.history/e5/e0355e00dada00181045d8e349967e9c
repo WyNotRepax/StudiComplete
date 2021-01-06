@@ -1,0 +1,36 @@
+public class MachWasProgramm {
+	/**
+	 * Ein super tolles Programm zur Berechnung von Zahlen
+	 **/
+
+	public static boolean istTolleZahl = true;
+
+	public static void main(String arg[]) {
+		int n = 0; // n wird definiert und auf 0 gesetzt
+		int x; // x wird definiert aber nicht initialisiert
+		int j = 0; // j wird definiert und auf 0 gesetzt
+		System.out.print("tolle Zahlen berechnen bis: "); // Gibt "tolle Zahlen berechnen bis: " auf der Konsole aus
+		x = IO.readInt(); // Liest einen Integer wert vom Nutzer ein und setzt x auf diesen Wert
+		while (n <= x) { // Solange n kleiner als x ist
+			int z = 2; // z wird definiert und auf 2 gesetzt
+			istTolleZahl = true; // globale Variable istTolleZahl wird auf true gesetzt
+			while (z * z <= n) {
+				boolean temp = true;
+				if (n % z == 0) {
+					istTolleZahl = false;
+					temp = false;
+				}
+				if (!temp) {
+					z = (int) Math.sqrt(n);
+				}
+				z++;
+			}
+			if (istTolleZahl == true && n != 0 && n != 1) {
+				System.out.println(n + " ist tolle Zahl");
+				j++;
+			}
+			n++;
+		}
+		System.out.println("Gesamtzahl der tollen Zahlen von 0 bis " + x + ": " + j);
+	}
+}

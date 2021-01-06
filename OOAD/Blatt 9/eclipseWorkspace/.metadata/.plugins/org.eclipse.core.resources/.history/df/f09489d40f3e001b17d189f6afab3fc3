@@ -1,0 +1,24 @@
+/**
+ * Author: Benno Steinkamp
+ * Date: 14.12.2020
+ */
+package Kaempfer;
+
+import Ausruestung.Ruestung;
+import Ausruestung.Waffe;
+
+public class SchwarzerRitter extends Kaempfer {
+
+	@Override
+	public void nimmWaffe(Waffe w) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void nimmRuestung(Ruestung r) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

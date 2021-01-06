@@ -1,0 +1,3 @@
+﻿  rgbimage.cpp
+C:\Users\benno\OneDrive\Studi\CG\Blatt 5\cgprakt5\src\rgbimage.cpp(123,21): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  CGVStudio.vcxproj -> C:\Users\benno\OneDrive\Studi\CG\Blatt 5\cgprakt5\CGVStudio\Debug\CGVStudio.exe

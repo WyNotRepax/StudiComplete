@@ -1,0 +1,64 @@
+/**
+ * Author: Benno Steinkamp
+ * Date: 14.12.2020
+ */
+package kaempfer;
+
+import java.util.Arrays;
+import java.util.function.ToIntFunction;
+import java.util.stream.Collectors;
+
+import ausruestung.Ruestung;
+import ausruestung.Waffe;
+
+/**
+ * @author benno
+ *
+ */
+public class Conan extends Kaempfer {
+
+	private Waffe[] waffen;
+	private Ruestung ruestung;
+
+	public Conan(int gesundheit, int geschick, int sold) {
+		super(gesundheit, geschick, sold);
+		this.waffen = new Waffe[2];
+	}
+
+	@Override
+	public void nimmWaffe(Waffe w) {
+		// Waffe 0 nach 1 und neue Waffe in 0
+		// So wird immer die älteste Waffe entfernt
+
+		this.waffen[1] = this.waffen[0];
+		this.waffen[0] = w;
+	}
+
+	@Override
+	public void nimmRuestung(Ruestung r) {
+		this.ruestung = r;
+	}
+
+	public Ruestung getRuestung() {
+		return ruestung;
+	}
+
+	public void setRuestung(Ruestung ruestung) {
+		this.ruestung = ruestung;
+	}
+
+	@Override
+	public int kaempfen() {
+		return Arrays.asList(this.waffen).stream().collect(Collectors.summingInt(w -> w.zuhauen(this.getGeschick())));
+		
+	}
+
+	@Override
+	public int abwehren(int angriff) {
+		if (this.ruestung != null) {
+			angriff = ruestung.abwehr(angriff);
+		}
+		return super.abwehren(angriff);
+	}
+
+}

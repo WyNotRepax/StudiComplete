@@ -1,0 +1,19 @@
+INDEX VERSION 1.131+C:\Users\benno\OneDrive\Studi\OOAD\Blatt 3\eclipseWorkspace\.metadata\.plugins\org.eclipse.jdt.core
+4004483971.index
+382132367.index
+3069690690.index
+3747081577.index
+3540136373.index
+3015584879.index
+855232978.index
+3736887750.index
+3402017089.index
+2357171980.index
+1785340863.index
+3406370229.index
+1773310106.index
+523393590.index
+301491560.index
+1653786203.index
+1905879808.index
+3395390911.index

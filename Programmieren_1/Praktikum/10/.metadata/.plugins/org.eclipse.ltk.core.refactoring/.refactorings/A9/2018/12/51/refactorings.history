@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Mehrfachauswal&apos; to &apos;Mehrfachauswahl&apos;&#x0D;&#x0A;- Original project: &apos;A9&apos;&#x0D;&#x0A;- Original element: &apos;Mehrfachauswal&apos;&#x0D;&#x0A;- Renamed element: &apos;Mehrfachauswahl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Mehrfachauswal&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Mehrfachauswal.java[Mehrfachauswal" matchStrategy="1" name="Mehrfachauswahl" qualified="false" references="true" similarDeclarations="false" stamp="1545377768816" textual="false" version="1.0"/>
+</session>

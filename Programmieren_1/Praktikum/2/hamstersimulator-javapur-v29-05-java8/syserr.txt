@@ -1,0 +1,13 @@
+java.io.EOFException
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(Unknown Source)
+	at java.base/java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.base/java.io.ObjectInputStream.readObject(Unknown Source)
+	at de.hamster.debugger.model.RemoteProcessor.process(RemoteProcessor.java:179)
+	at de.hamster.debugger.model.IHamster.vornFrei(IHamster.java:125)
+	at hamsterprogramm.main(hamsterprogramm.java:2)
+	at de.hamster.debugger.model.RemoteRunner.main(RemoteRunner.java:123)
+java.lang.NullPointerException
+	at de.hamster.debugger.model.IHamster.vornFrei(IHamster.java:128)
+	at hamsterprogramm.main(hamsterprogramm.java:2)
+	at de.hamster.debugger.model.RemoteRunner.main(RemoteRunner.java:123)
+3)

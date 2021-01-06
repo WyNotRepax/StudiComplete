@@ -1,0 +1,32 @@
+/**
+ * Author: Benno Steinkamp
+ * Date: 14.12.2020
+ */
+package Ausruestung;
+
+public abstract class Ausruestung {
+	protected String name;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setPreis(int preis) {
+		this.preis = preis;
+	}
+
+	protected int preis;
+
+	public Ausruestung(String name, int preis) {
+		this.name = name;
+		this.preis = preis;
+	}
+
+	public int getPreis() {
+		return preis;
+	}
+}

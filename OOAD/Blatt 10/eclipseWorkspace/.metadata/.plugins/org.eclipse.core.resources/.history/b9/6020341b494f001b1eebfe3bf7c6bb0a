@@ -1,0 +1,9 @@
+package interfaces;
+
+import entity.Fluessigkeit;
+
+public interface Visitor {
+
+	String visit(Zutat zutat);
+	
+}

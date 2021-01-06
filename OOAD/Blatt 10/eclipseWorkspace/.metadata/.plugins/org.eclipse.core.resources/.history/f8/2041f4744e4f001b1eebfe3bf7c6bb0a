@@ -1,0 +1,15 @@
+package io.commands;
+
+public class Reset implements Command {
+
+	public Reset(Rechner rechner) {
+		
+	}
+	
+	@Override
+	public void execute() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

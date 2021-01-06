@@ -1,0 +1,28 @@
+
+public class Ordnungsfrage extends Frage {
+	static String text = "Ordnen Sie die folgenden deutschen Städte von Nord nach Süd!";
+
+	String[] antworten;
+	int[] indicecs;
+
+	Ordnungsfrage(int punkte, String[] antworten, int[] indices) {
+		super(text, punkte);
+		this.antworten = antworten;
+		this.indicecs = indices;
+	}
+
+	@Override
+	void frageStellen() {
+		super.frageStellen();
+		for (int i = 0; i < antworten.length; i++) {
+			IO.println((i + 1) + ". Index:" + antworten[i]);
+		}
+	}
+
+	@Override
+	void frageBeantworten(Pruefling person) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

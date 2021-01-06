@@ -1,0 +1,56 @@
+package main;
+
+public class Verwaltung {
+
+	public void start() {
+		Ausgabe.printBegruessung();
+		int eingabe = -1;
+		while (eingabe != 0) {
+			Ausgabe.printAuswahl();
+
+			eingabe = Eingabe.leseInt();
+
+			switch (eingabe) {
+			case 0:
+				break;
+			case 1:
+				leistungHinzufuegen();
+				break;
+			case 2:
+				leistungAusgeben();
+				break;
+			default:
+				fehlermeldungAusgeben();
+			}
+		}
+	}
+
+	private void fehlermeldungAusgeben() {
+		// TODO Fehlermeldung Ausgeben
+
+	}
+
+	private void leistungHinzufuegen() {
+		System.out.print("Matrikelnummer: ");
+		int matnr = Eingabe.leseInt();
+		System.out.print("Fach: ");
+		String fach = Eingabe.leseString();
+		System.out.print("Leistungspunkte: ");
+		int lp = Eingabe.leseInt();
+		werte += matnr + "$" + fach + "$" + lp + "?";
+
+	}
+
+	private void leistungAusgeben() {
+		System.out.print("Matrikelnummer: ");
+		String matnr = Eingabe.leseString();
+		int ergebnis = 0;
+		for (String st : werte.split("\\?")) {
+			String[] tmp = st.split("\\$");
+			if (tmp.length == 3 && matnr.equals(tmp[0])) {
+				System.out.println(tmp[1] + ": " + tmp[2]);
+				ergebnis += Integer.parseInt(tmp[2]);
+			}
+		}
+		System.out.println("Hat " + ergebnis + " Leistungspunkte");
+	}

@@ -1,0 +1,47 @@
+/**
+ * Author: Benno Steinkamp
+ * Date: 14.12.2020
+ */
+package kaempfer;
+
+import ausruestung.Ruestung;
+import ausruestung.Waffe;
+
+public class SchwarzerRitter extends Kaempfer {
+
+	private static final int DEFAULT_GESUNDHEIT = 120;
+	private static final int DEFAULT_GESCHICK = 0;
+	private static final int DEFAULT_SOLD = 0;
+	private static final int DEFAULT_SCHADEN = 13;
+	private static final int DEFAULT_ABWEHR = 10;
+
+	public SchwarzerRitter() {
+		super(DEFAULT_GESUNDHEIT, DEFAULT_GESCHICK, DEFAULT_SOLD);
+	}
+
+	@Override
+	public void nimmWaffe(Waffe w) {
+	}
+
+	@Override
+	public void nimmRuestung(Ruestung r) {
+	}
+
+	@Override
+	public int kaempfen() {
+		return DEFAULT_SCHADEN;
+	}
+
+	@Override
+	public int abwehren(int angriff) {
+		System.out.printf("DEBUG: Schwarzer Ritter wird mit %d angegriffen\n",angriff);
+		angriff = Math.min(0, angriff - DEFAULT_ABWEHR);
+		return super.abwehren(angriff);
+	}
+	
+	@Override
+	public String toString() {
+		return "schwarzer Ritter";
+	}
+
+}

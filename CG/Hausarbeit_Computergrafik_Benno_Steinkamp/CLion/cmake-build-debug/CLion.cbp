@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CLion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLion">
+				<Option output="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/CLion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/../thirdparty/glew/include"/>
+					<Add directory="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/../thirdparty/glfw/include"/>
+					<Add directory="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/../thirdparty/freeimage/include"/>
+					<Add directory="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/../thirdparty/assimp/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLion"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CLion/fast">
+				<Option output="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/CLion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/../thirdparty/glew/include"/>
+					<Add directory="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/../thirdparty/glfw/include"/>
+					<Add directory="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/../thirdparty/freeimage/include"/>
+					<Add directory="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/../thirdparty/assimp/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 CLion/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/DebugRender.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/DebugRender.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/Game.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/Game.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/Tank.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/Tank.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/Texture.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/Texture.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/helper/Aabb.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/helper/Aabb.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/helper/Camera.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/helper/Camera.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/helper/Color.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/helper/Color.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/helper/IndexBuffer.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/helper/IndexBuffer.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/helper/RGBImage.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/helper/RGBImage.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/helper/VertexBuffer.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/helper/VertexBuffer.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/main.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/math/Matrix.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/math/Matrix.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/math/Vector.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/math/Vector.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/model/BaseModel.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/model/BaseModel.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/model/Bullet.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/model/Bullet.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/model/HitModel.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/model/HitModel.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/model/Model.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/model/Model.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/model/SkyBox.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/model/SkyBox.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/BaseShader.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/BaseShader.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/ConstantShader.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/ConstantShader.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/PhongShader.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/PhongShader.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/SkyBoxShader.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/SkyBoxShader.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/UIShader.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/UIShader.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/helper/Framebuffer.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/helper/Framebuffer.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/helper/ShaderLightMapper.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/helper/ShaderLightMapper.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/helper/ShadowMapGenerator.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/shader/helper/ShadowMapGenerator.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/ui/BaseUIComponent.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/ui/BaseUIComponent.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/ui/Font.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/ui/Font.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/ui/UIRect.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/ui/UIRect.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/ui/UITextBox.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/src/ui/UITextBox.h">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="C:/Users/benno/OneDrive/Studi/CG/Hausarbeit_Computergrafik_Benno_Steinkamp/CLion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

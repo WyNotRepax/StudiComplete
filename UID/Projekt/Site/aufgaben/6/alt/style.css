@@ -1,0 +1,50 @@
+:root {
+  --duration: 100ms;
+}
+
+.slideshow img {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.slideshow {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+}
+
+@keyframes picOutKeyframes {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 500px;
+  }
+}
+.picOut {
+  display: inline !important;
+  left: 500px;
+  animation-name: picOutKeyframes;
+  animation-duration: var(--duration);
+  -webkit-animation-duration: var(--duration);
+}
+
+@keyframes picInKeyframes {
+  from {
+    left: -500px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+.picIn {
+  display: inline !important;
+  left: 0px;
+  animation-name: picInKeyframes;
+  animation-duration: var(--duration);
+  -webkit-animation-duration: var(--duration);
+}

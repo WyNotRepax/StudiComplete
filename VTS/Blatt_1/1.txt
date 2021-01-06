@@ -1,0 +1,10 @@
+A5 erhöhte Fehlertoleranz
+N4 wird genau entgegengearbeitet
+
+Wissenschaftliche Datenanalyse zB. CERN
+ -> Große Datenmengen => A3/A4
+ -> N1/N3 / N2 spielt ggf. keine Rolle
+
+Simulationen zB. Wettervorhersage
+ -> A1/A2/A3 zwar Ideal aber
+ -> N4 erschwert Verteilung oder macht sie unmöglich

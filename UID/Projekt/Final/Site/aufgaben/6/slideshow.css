@@ -1,0 +1,38 @@
+.slideshow {
+  overflow: hidden;
+}
+
+.slideshow div {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 500%;
+  animation: slideshowKeyframes 12s ease-in-out infinite;
+}
+
+img {
+  padding: 0px;
+  margin: 0px;
+  float: left;
+  height: 100%;
+  width:20%;
+}
+
+@keyframes slideshowKeyframes {
+  0% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  75%{
+    left: -300%;
+  }
+  100%{
+    left:-400%;
+  }
+}

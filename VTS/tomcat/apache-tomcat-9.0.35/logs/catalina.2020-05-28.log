@@ -1,0 +1,1391 @@
+28-May-2020 10:15:52.706 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log 
+ Server Version:        Apache Tomcat/9.0.35
+28-May-2020 10:15:52.708 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+28-May-2020 10:15:52.708 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+28-May-2020 10:15:52.708 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-May-2020 10:15:52.708 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-May-2020 10:15:52.708 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:          amd64
+28-May-2020 10:15:52.708 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\AdoptOpenJDK\jdk-8.0.222.10-hotspot\jre
+28-May-2020 10:15:52.708 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_222-b10
+28-May-2020 10:15:52.708 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:            
+28-May-2020 10:15:52.708 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log 
+ CATALINA_BASE:         C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 10:15:52.708 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 10:15:52.709 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\logging.properties
+28-May-2020 10:15:52.709 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 10:15:52.709 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-0TCVC67
+28-May-2020 10:15:52.709 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-May-2020 10:15:52.709 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-May-2020 10:15:52.709 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-May-2020 10:15:52.709 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 10:15:52.709 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 10:15:52.709 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\temp
+28-May-2020 10:15:52.709 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+28-May-2020 10:15:52.709 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-May-2020 10:15:52.712 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-May-2020 10:15:52.724 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+28-May-2020 10:15:52.911 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+28-May-2020 10:15:53.666 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.095] milliseconds
+28-May-2020 10:15:53.688 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-May-2020 10:15:53.688 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+28-May-2020 10:15:53.695 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml]
+28-May-2020 10:15:53.707 WARNUNG [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projekt] in deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml] has been ignored
+28-May-2020 10:15:53.891 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml] has finished in [196] ms
+28-May-2020 10:15:53.891 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml]
+28-May-2020 10:15:53.892 WARNUNG [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/VS_P08_BillBoard] in deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml] has been ignored
+28-May-2020 10:15:53.894 WARNUNG [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-May-2020 10:15:53.930 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml] has finished in [39] ms
+28-May-2020 10:15:53.931 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\docs]
+28-May-2020 10:15:53.948 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\docs] has finished in [17] ms
+28-May-2020 10:15:53.948 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\examples]
+28-May-2020 10:15:54.203 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\examples] has finished in [255] ms
+28-May-2020 10:15:54.203 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\host-manager]
+28-May-2020 10:15:54.226 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\host-manager] has finished in [23] ms
+28-May-2020 10:15:54.227 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\manager]
+28-May-2020 10:15:54.246 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\manager] has finished in [18] ms
+28-May-2020 10:15:54.246 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\ROOT]
+28-May-2020 10:15:54.263 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\ROOT] has finished in [17] ms
+28-May-2020 10:15:54.266 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-May-2020 10:15:54.271 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [605] milliseconds
+28-May-2020 10:15:55.843 INFORMATION [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 10:15:55.882 INFORMATION [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 10:26:35.990 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-May-2020 10:26:35.991 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-May-2020 10:26:36.661 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-May-2020 10:26:36.669 INFORMATION [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 10:26:37.378 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-May-2020 10:26:37.379 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-May-2020 10:26:40.171 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log 
+ Server Version:        Apache Tomcat/9.0.35
+28-May-2020 10:26:40.172 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+28-May-2020 10:26:40.172 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+28-May-2020 10:26:40.172 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-May-2020 10:26:40.172 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-May-2020 10:26:40.172 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:          amd64
+28-May-2020 10:26:40.172 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\AdoptOpenJDK\jdk-8.0.222.10-hotspot\jre
+28-May-2020 10:26:40.172 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_222-b10
+28-May-2020 10:26:40.172 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:            
+28-May-2020 10:26:40.172 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log 
+ CATALINA_BASE:         C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 10:26:40.173 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 10:26:40.174 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\logging.properties
+28-May-2020 10:26:40.174 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 10:26:40.174 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-0TCVC67
+28-May-2020 10:26:40.174 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-May-2020 10:26:40.174 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-May-2020 10:26:40.174 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-May-2020 10:26:40.174 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 10:26:40.174 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 10:26:40.174 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\temp
+28-May-2020 10:26:40.174 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+28-May-2020 10:26:40.174 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-May-2020 10:26:40.176 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-May-2020 10:26:40.180 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+28-May-2020 10:26:40.363 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+28-May-2020 10:26:41.104 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.056] milliseconds
+28-May-2020 10:26:41.126 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-May-2020 10:26:41.126 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+28-May-2020 10:26:41.132 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml]
+28-May-2020 10:26:41.142 WARNUNG [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projekt] in deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml] has been ignored
+28-May-2020 10:26:41.307 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml] has finished in [175] ms
+28-May-2020 10:26:41.307 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml]
+28-May-2020 10:26:41.307 WARNUNG [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/VS_P08_BillBoard] in deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml] has been ignored
+28-May-2020 10:26:41.310 WARNUNG [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-May-2020 10:26:41.345 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml] has finished in [37] ms
+28-May-2020 10:26:41.345 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\docs]
+28-May-2020 10:26:41.361 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\docs] has finished in [16] ms
+28-May-2020 10:26:41.362 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\examples]
+28-May-2020 10:26:41.586 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\examples] has finished in [225] ms
+28-May-2020 10:26:41.587 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\host-manager]
+28-May-2020 10:26:41.610 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\host-manager] has finished in [23] ms
+28-May-2020 10:26:41.610 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\manager]
+28-May-2020 10:26:41.628 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\manager] has finished in [18] ms
+28-May-2020 10:26:41.628 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\ROOT]
+28-May-2020 10:26:41.642 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\ROOT] has finished in [14] ms
+28-May-2020 10:26:41.644 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-May-2020 10:26:41.650 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [545] milliseconds
+28-May-2020 10:29:59.821 INFORMATION [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 10:29:59.821 INFORMATION [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 10:30:00.827 INFORMATION [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 10:30:01.835 INFORMATION [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 10:30:01.941 WARNUNG [http-nio-8080-exec-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VS_P08_BillBoard] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.Thread.sleep(Native Method)
+ de.hsos.vs.BillBoardServlet.doGet(BillBoardServlet.java:62)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+28-May-2020 10:30:01.977 INFORMATION [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 10:33:11.206 INFORMATION [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 10:33:11.238 INFORMATION [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 10:40:32.799 INFORMATION [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 10:40:32.830 INFORMATION [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 10:41:20.579 INFORMATION [http-nio-8080-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 10:41:20.607 INFORMATION [http-nio-8080-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 10:41:43.886 INFORMATION [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 10:41:43.915 INFORMATION [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 10:45:00.920 INFORMATION [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 10:45:00.921 INFORMATION [http-nio-8080-exec-41] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 10:45:01.928 INFORMATION [http-nio-8080-exec-41] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 10:45:02.932 INFORMATION [http-nio-8080-exec-41] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 10:45:03.036 WARNUNG [http-nio-8080-exec-41] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VS_P08_BillBoard] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.Thread.sleep(Native Method)
+ de.hsos.vs.BillBoardServlet.doGet(BillBoardServlet.java:66)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+28-May-2020 10:45:03.061 INFORMATION [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 10:45:12.151 INFORMATION [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 10:45:12.187 INFORMATION [http-nio-8080-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 10:51:33.463 INFORMATION [http-nio-8080-exec-57] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 10:51:34.469 INFORMATION [http-nio-8080-exec-57] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 10:51:35.475 INFORMATION [http-nio-8080-exec-57] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 10:51:35.581 WARNUNG [http-nio-8080-exec-57] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VS_P08_BillBoard] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.Thread.sleep(Native Method)
+ de.hsos.vs.BillBoardServlet.doGet(BillBoardServlet.java:64)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+28-May-2020 10:51:36.083 INFORMATION [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/VS_P08_BillBoard]
+28-May-2020 10:52:15.344 INFORMATION [http-nio-8080-exec-52] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml]
+28-May-2020 10:52:15.344 WARNUNG [http-nio-8080-exec-52] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/VS_P08_BillBoard] in deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml] has been ignored
+28-May-2020 10:52:15.347 WARNUNG [http-nio-8080-exec-52] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-May-2020 10:52:15.372 INFORMATION [http-nio-8080-exec-52] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml] has finished in [28] ms
+28-May-2020 10:52:15.375 INFORMATION [http-nio-8080-exec-63] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/VS_P08_BillBoard]] after start() had already been called. The second call will be ignored.
+28-May-2020 10:55:33.814 INFORMATION [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 10:55:33.815 INFORMATION [http-nio-8080-exec-71] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 10:55:34.821 INFORMATION [http-nio-8080-exec-71] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 10:55:35.828 INFORMATION [http-nio-8080-exec-71] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 10:55:35.933 WARNUNG [http-nio-8080-exec-71] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VS_P08_BillBoard] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.Thread.sleep(Native Method)
+ de.hsos.vs.BillBoardServlet.doGet(BillBoardServlet.java:64)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+28-May-2020 10:55:35.959 INFORMATION [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 10:55:35.961 INFORMATION [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 10:55:35.991 INFORMATION [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 10:56:00.847 INFORMATION [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 10:56:00.847 INFORMATION [http-nio-8080-exec-69] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 10:56:01.853 INFORMATION [http-nio-8080-exec-69] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 10:56:02.385 INFORMATION [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 11:00:49.355 INFORMATION [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 11:00:49.355 INFORMATION [http-nio-8080-exec-83] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 11:00:50.360 INFORMATION [http-nio-8080-exec-83] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 11:00:51.366 INFORMATION [http-nio-8080-exec-83] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 11:00:51.469 WARNUNG [http-nio-8080-exec-83] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VS_P08_BillBoard] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.Thread.sleep(Native Method)
+ de.hsos.vs.BillBoardServlet.doGet(BillBoardServlet.java:64)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+28-May-2020 11:00:51.495 INFORMATION [http-nio-8080-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 11:09:15.876 INFORMATION [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 11:09:15.876 INFORMATION [http-nio-8080-exec-93] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 11:09:16.882 INFORMATION [http-nio-8080-exec-93] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 11:09:17.713 INFORMATION [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 11:10:02.418 INFORMATION [http-nio-8080-exec-106] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 11:10:02.450 INFORMATION [http-nio-8080-exec-106] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 11:10:46.154 INFORMATION [http-nio-8080-exec-115] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 11:10:46.154 INFORMATION [http-nio-8080-exec-115] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 11:10:46.582 INFORMATION [http-nio-8080-exec-115] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 13:37:28.830 INFORMATION [http-nio-8080-exec-118] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 13:37:28.859 INFORMATION [http-nio-8080-exec-118] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 13:37:31.954 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-May-2020 13:37:31.955 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-May-2020 13:37:32.694 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-May-2020 13:37:32.718 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-May-2020 13:37:32.719 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-May-2020 14:39:43.073 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log 
+ Server Version:        Apache Tomcat/9.0.35
+28-May-2020 14:39:43.074 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+28-May-2020 14:39:43.074 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+28-May-2020 14:39:43.074 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-May-2020 14:39:43.074 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-May-2020 14:39:43.074 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:          amd64
+28-May-2020 14:39:43.074 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\AdoptOpenJDK\jdk-8.0.222.10-hotspot\jre
+28-May-2020 14:39:43.074 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_222-b10
+28-May-2020 14:39:43.074 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:            
+28-May-2020 14:39:43.074 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log 
+ CATALINA_BASE:         C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 14:39:43.074 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 14:39:43.075 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\logging.properties
+28-May-2020 14:39:43.076 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 14:39:43.076 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-0TCVC67
+28-May-2020 14:39:43.076 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-May-2020 14:39:43.076 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-May-2020 14:39:43.076 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-May-2020 14:39:43.076 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 14:39:43.076 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 14:39:43.076 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\temp
+28-May-2020 14:39:43.076 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+28-May-2020 14:39:43.076 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-May-2020 14:39:43.076 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-May-2020 14:39:43.080 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+28-May-2020 14:39:43.262 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+28-May-2020 14:39:44.004 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.054] milliseconds
+28-May-2020 14:39:44.021 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-May-2020 14:39:44.021 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+28-May-2020 14:39:44.027 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml]
+28-May-2020 14:39:44.038 WARNUNG [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projekt] in deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml] has been ignored
+28-May-2020 14:39:44.202 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml] has finished in [175] ms
+28-May-2020 14:39:44.202 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml]
+28-May-2020 14:39:44.202 WARNUNG [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/VS_P08_BillBoard] in deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml] has been ignored
+28-May-2020 14:39:44.205 WARNUNG [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-May-2020 14:39:44.239 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml] has finished in [37] ms
+28-May-2020 14:39:44.240 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\docs]
+28-May-2020 14:39:44.256 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\docs] has finished in [16] ms
+28-May-2020 14:39:44.256 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\examples]
+28-May-2020 14:39:44.487 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\examples] has finished in [231] ms
+28-May-2020 14:39:44.487 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\host-manager]
+28-May-2020 14:39:44.509 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\host-manager] has finished in [22] ms
+28-May-2020 14:39:44.509 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\manager]
+28-May-2020 14:39:44.529 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\manager] has finished in [19] ms
+28-May-2020 14:39:44.529 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\ROOT]
+28-May-2020 14:39:44.545 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\ROOT] has finished in [16] ms
+28-May-2020 14:39:44.547 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-May-2020 14:39:44.552 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [548] milliseconds
+28-May-2020 14:39:46.080 INFORMATION [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 14:39:46.122 INFORMATION [http-nio-8080-exec-5] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 14:40:34.628 INFORMATION [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 14:40:34.656 INFORMATION [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 14:40:37.071 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-May-2020 14:40:37.071 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-May-2020 14:40:37.754 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-May-2020 14:40:37.774 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-May-2020 14:40:37.775 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-May-2020 14:41:05.897 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log 
+ Server Version:        Apache Tomcat/9.0.35
+28-May-2020 14:41:05.898 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+28-May-2020 14:41:05.898 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+28-May-2020 14:41:05.898 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-May-2020 14:41:05.898 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-May-2020 14:41:05.898 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:          amd64
+28-May-2020 14:41:05.898 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\AdoptOpenJDK\jdk-8.0.222.10-hotspot\jre
+28-May-2020 14:41:05.898 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_222-b10
+28-May-2020 14:41:05.898 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:            
+28-May-2020 14:41:05.898 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log 
+ CATALINA_BASE:         C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 14:41:05.899 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 14:41:05.900 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\logging.properties
+28-May-2020 14:41:05.900 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 14:41:05.900 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-0TCVC67
+28-May-2020 14:41:05.900 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-May-2020 14:41:05.900 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-May-2020 14:41:05.900 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-May-2020 14:41:05.900 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 14:41:05.900 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 14:41:05.900 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\temp
+28-May-2020 14:41:05.900 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+28-May-2020 14:41:05.900 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-May-2020 14:41:05.900 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-May-2020 14:41:05.906 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+28-May-2020 14:41:06.122 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+28-May-2020 14:41:07.004 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.233] milliseconds
+28-May-2020 14:41:07.030 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-May-2020 14:41:07.030 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+28-May-2020 14:41:07.037 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml]
+28-May-2020 14:41:07.050 WARNUNG [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projekt] in deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml] has been ignored
+28-May-2020 14:41:07.243 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml] has finished in [206] ms
+28-May-2020 14:41:07.243 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml]
+28-May-2020 14:41:07.243 WARNUNG [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/VS_P08_BillBoard] in deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml] has been ignored
+28-May-2020 14:41:07.246 WARNUNG [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-May-2020 14:41:07.285 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml] has finished in [41] ms
+28-May-2020 14:41:07.285 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\docs]
+28-May-2020 14:41:07.308 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\docs] has finished in [23] ms
+28-May-2020 14:41:07.308 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\examples]
+28-May-2020 14:41:07.613 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\examples] has finished in [305] ms
+28-May-2020 14:41:07.613 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\host-manager]
+28-May-2020 14:41:07.640 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\host-manager] has finished in [27] ms
+28-May-2020 14:41:07.640 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\manager]
+28-May-2020 14:41:07.663 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\manager] has finished in [23] ms
+28-May-2020 14:41:07.663 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\ROOT]
+28-May-2020 14:41:07.683 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\ROOT] has finished in [20] ms
+28-May-2020 14:41:07.688 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-May-2020 14:41:07.697 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [691] milliseconds
+28-May-2020 14:41:09.280 INFORMATION [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] has started
+28-May-2020 14:41:09.321 INFORMATION [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/VS_P08_BillBoard] is completed
+28-May-2020 14:46:48.901 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-May-2020 14:46:48.901 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-May-2020 14:46:49.594 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-May-2020 14:46:49.607 INFORMATION [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 14:46:50.613 INFORMATION [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 14:46:51.618 INFORMATION [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 14:46:51.721 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VS_P08_BillBoard] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.Thread.sleep(Native Method)
+ de.hsos.vs.BillBoardServlet.doGet(BillBoardServlet.java:67)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+28-May-2020 14:46:51.724 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-May-2020 14:46:51.726 SCHWERWIEGEND [http-nio-8080-exec-18] org.apache.coyote.http11.Http11Processor.service Fehler bei der Verarbeitung der Anfrage
+	java.lang.NullPointerException
+		at org.apache.catalina.connector.OutputBuffer.realWriteChars(OutputBuffer.java:445)
+		at org.apache.catalina.connector.OutputBuffer.flushCharBuffer(OutputBuffer.java:781)
+		at org.apache.catalina.connector.OutputBuffer.close(OutputBuffer.java:233)
+		at org.apache.catalina.connector.Response.finishResponse(Response.java:442)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:374)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 14:46:51.728 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-May-2020 17:46:45.566 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log 
+ Server Version:        Apache Tomcat/9.0.35
+28-May-2020 17:46:45.569 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+28-May-2020 17:46:45.569 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+28-May-2020 17:46:45.569 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-May-2020 17:46:45.569 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-May-2020 17:46:45.569 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:          amd64
+28-May-2020 17:46:45.569 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\AdoptOpenJDK\jdk-8.0.222.10-hotspot\jre
+28-May-2020 17:46:45.569 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_222-b10
+28-May-2020 17:46:45.569 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:            
+28-May-2020 17:46:45.569 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log 
+ CATALINA_BASE:         C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 17:46:45.569 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 17:46:45.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\logging.properties
+28-May-2020 17:46:45.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 17:46:45.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-0TCVC67
+28-May-2020 17:46:45.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-May-2020 17:46:45.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-May-2020 17:46:45.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-May-2020 17:46:45.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 17:46:45.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 17:46:45.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\temp
+28-May-2020 17:46:45.576 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+28-May-2020 17:46:45.576 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-May-2020 17:46:45.576 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-May-2020 17:46:45.587 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+28-May-2020 17:46:45.829 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+28-May-2020 17:46:46.612 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.243] milliseconds
+28-May-2020 17:46:46.637 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-May-2020 17:46:46.637 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+28-May-2020 17:46:46.643 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml]
+28-May-2020 17:46:46.654 WARNUNG [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projekt] in deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml] has been ignored
+28-May-2020 17:46:46.845 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml] has finished in [201] ms
+28-May-2020 17:46:46.845 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml]
+28-May-2020 17:46:46.845 WARNUNG [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/VS_P08_BillBoard] in deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml] has been ignored
+28-May-2020 17:46:46.848 WARNUNG [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-May-2020 17:46:46.887 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml] has finished in [42] ms
+28-May-2020 17:46:46.887 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\docs]
+28-May-2020 17:46:46.904 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\docs] has finished in [17] ms
+28-May-2020 17:46:46.905 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\examples]
+28-May-2020 17:46:47.193 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\examples] has finished in [288] ms
+28-May-2020 17:46:47.193 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\host-manager]
+28-May-2020 17:46:47.224 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\host-manager] has finished in [31] ms
+28-May-2020 17:46:47.224 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\manager]
+28-May-2020 17:46:47.246 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\manager] has finished in [22] ms
+28-May-2020 17:46:47.246 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\ROOT]
+28-May-2020 17:46:47.261 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\ROOT] has finished in [15] ms
+28-May-2020 17:46:47.264 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-May-2020 17:46:47.271 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [658] milliseconds
+28-May-2020 17:48:11.996 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-May-2020 17:48:11.996 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-May-2020 17:48:12.676 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-May-2020 17:48:12.691 INFORMATION [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [Chat]
+28-May-2020 17:48:13.698 INFORMATION [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [Chat]
+28-May-2020 17:48:14.704 INFORMATION [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [Chat]
+28-May-2020 17:48:14.814 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [projekt] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+ java.net.SocketInputStream.read(SocketInputStream.java:171)
+ java.net.SocketInputStream.read(SocketInputStream.java:141)
+ java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+ java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+ java.io.DataInputStream.readByte(DataInputStream.java:265)
+ sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:222)
+ sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+ java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+ java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+ com.sun.proxy.$Proxy10.subscribeUser(Unknown Source)
+ chatsystem.servlet.Chat.doInit(Chat.java:91)
+ chatsystem.servlet.Chat.processRequest(Chat.java:62)
+ chatsystem.servlet.Chat.doGet(Chat.java:158)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+28-May-2020 17:48:14.814 SCHWERWIEGEND [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets Found RMI Target with stub class class [com.sun.proxy.$Proxy11] and value [Proxy[ClientProxy,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.0.121:54185](local),objID:[-28eb164a:1725bf72d80:-7ffe, -2383593464681251273]]]]]]. This RMI Target has been forcibly removed to prevent a memory leak.
+28-May-2020 17:48:14.814 SCHWERWIEGEND [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets Found RMI Target with stub class class [com.sun.proxy.$Proxy11] and value [Proxy[ClientProxy,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.0.121:54185](local),objID:[-28eb164a:1725bf72d80:-7ffb, 6666644494103610918]]]]]]. This RMI Target has been forcibly removed to prevent a memory leak.
+28-May-2020 17:48:14.847 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-May-2020 17:48:19.848 WARNUNG [main] org.apache.tomcat.util.net.AbstractEndpoint.shutdownExecutor The executor associated with thread pool [http-nio-8080] has not fully shutdown. Some application threads may still be running.
+28-May-2020 17:48:19.848 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-May-2020 17:49:50.775 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log 
+ Server Version:        Apache Tomcat/9.0.35
+28-May-2020 17:49:50.777 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2020 20:36:20 UTC
+28-May-2020 17:49:50.777 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.35.0
+28-May-2020 17:49:50.777 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-May-2020 17:49:50.777 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-May-2020 17:49:50.777 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architektur:          amd64
+28-May-2020 17:49:50.777 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\AdoptOpenJDK\jdk-8.0.222.10-hotspot\jre
+28-May-2020 17:49:50.777 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_222-b10
+28-May-2020 17:49:50.777 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Hersteller:            
+28-May-2020 17:49:50.777 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log 
+ CATALINA_BASE:         C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 17:49:50.777 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 17:49:50.778 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\logging.properties
+28-May-2020 17:49:50.778 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 17:49:50.778 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-0TCVC67
+28-May-2020 17:49:50.778 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-May-2020 17:49:50.778 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-May-2020 17:49:50.778 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-May-2020 17:49:50.778 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 17:49:50.778 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35
+28-May-2020 17:49:50.778 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\temp
+28-May-2020 17:49:50.779 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+28-May-2020 17:49:50.779 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-May-2020 17:49:50.781 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-May-2020 17:49:50.786 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+28-May-2020 17:49:51.016 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initialisiere ProtocolHandler["http-nio-8080"]
+28-May-2020 17:49:51.837 INFORMATION [main] org.apache.catalina.startup.Catalina.load Server initialization in [1.227] milliseconds
+28-May-2020 17:49:51.856 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-May-2020 17:49:51.857 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.35]
+28-May-2020 17:49:51.862 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml]
+28-May-2020 17:49:51.874 WARNUNG [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/projekt] in deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml] has been ignored
+28-May-2020 17:49:52.116 SCHWERWIEGEND [main] org.apache.catalina.session.StandardManager.startInternal Ausnahme beim Laden der Sitzungen aus dem Persistenten Speicher
+	java.lang.ClassCastException: java.lang.String cannot be cast to java.io.ObjectStreamClass
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1745)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2042)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+		at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2211)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1587)
+		at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1040)
+		at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:218)
+		at org.apache.catalina.session.StandardManager.load(StandardManager.java:162)
+		at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:354)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5164)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:631)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1830)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:526)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:425)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+28-May-2020 17:49:52.161 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\projekt.xml] has finished in [298] ms
+28-May-2020 17:49:52.161 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml]
+28-May-2020 17:49:52.161 WARNUNG [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/VS_P08_BillBoard] in deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml] has been ignored
+28-May-2020 17:49:52.164 WARNUNG [main] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+28-May-2020 17:49:52.205 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\conf\Catalina\localhost\VS_P08_BillBoard.xml] has finished in [44] ms
+28-May-2020 17:49:52.206 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\docs]
+28-May-2020 17:49:52.229 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\docs] has finished in [23] ms
+28-May-2020 17:49:52.230 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\examples]
+28-May-2020 17:49:52.539 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\examples] has finished in [309] ms
+28-May-2020 17:49:52.539 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\host-manager]
+28-May-2020 17:49:52.577 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\host-manager] has finished in [37] ms
+28-May-2020 17:49:52.577 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\manager]
+28-May-2020 17:49:52.606 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\manager] has finished in [28] ms
+28-May-2020 17:49:52.606 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploye Web-Applikations-Verzeichnis [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\ROOT]
+28-May-2020 17:49:52.632 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\benno\OneDrive\Studi\VTS\tomcat\apache-tomcat-9.0.35\webapps\ROOT] has finished in [25] ms
+28-May-2020 17:49:52.635 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-May-2020 17:49:52.643 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [805] milliseconds
+28-May-2020 18:03:41.875 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.rmi.ServerException]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.rmi.ServerException]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:348)
+		at sun.rmi.server.LoaderHandler.loadClassForName(LoaderHandler.java:1221)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:175)
+		at java.rmi.server.RMIClassLoader$2.loadClass(RMIClassLoader.java:637)
+		at java.rmi.server.RMIClassLoader.loadClass(RMIClassLoader.java:264)
+		at sun.rmi.server.MarshalInputStream.resolveClass(MarshalInputStream.java:219)
+		at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1868)
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2042)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+		at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+		at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+		at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+		at com.sun.proxy.$Proxy10.subscribeUser(Unknown Source)
+		at chatsystem.servlet.Chat.doInit(Chat.java:91)
+		at chatsystem.servlet.Chat.processRequest(Chat.java:62)
+		at chatsystem.servlet.Chat.doGet(Chat.java:158)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 18:03:41.876 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.rmi.ServerException]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.rmi.ServerException]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:348)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:378)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:186)
+		at java.rmi.server.RMIClassLoader$2.loadClass(RMIClassLoader.java:637)
+		at java.rmi.server.RMIClassLoader.loadClass(RMIClassLoader.java:264)
+		at sun.rmi.server.MarshalInputStream.resolveClass(MarshalInputStream.java:219)
+		at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1868)
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2042)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+		at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+		at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+		at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+		at com.sun.proxy.$Proxy10.subscribeUser(Unknown Source)
+		at chatsystem.servlet.Chat.doInit(Chat.java:91)
+		at chatsystem.servlet.Chat.processRequest(Chat.java:62)
+		at chatsystem.servlet.Chat.doGet(Chat.java:158)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 18:03:41.876 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.lang.StackTraceElement]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.lang.StackTraceElement]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:348)
+		at sun.rmi.server.LoaderHandler.loadClassForName(LoaderHandler.java:1221)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:175)
+		at java.rmi.server.RMIClassLoader$2.loadClass(RMIClassLoader.java:637)
+		at java.rmi.server.RMIClassLoader.loadClass(RMIClassLoader.java:264)
+		at sun.rmi.server.MarshalInputStream.resolveClass(MarshalInputStream.java:219)
+		at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1868)
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+		at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1930)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1567)
+		at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+		at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2167)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+		at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+		at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+		at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+		at com.sun.proxy.$Proxy10.subscribeUser(Unknown Source)
+		at chatsystem.servlet.Chat.doInit(Chat.java:91)
+		at chatsystem.servlet.Chat.processRequest(Chat.java:62)
+		at chatsystem.servlet.Chat.doGet(Chat.java:158)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 18:03:41.877 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.lang.StackTraceElement]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.lang.StackTraceElement]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:348)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:378)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:186)
+		at java.rmi.server.RMIClassLoader$2.loadClass(RMIClassLoader.java:637)
+		at java.rmi.server.RMIClassLoader.loadClass(RMIClassLoader.java:264)
+		at sun.rmi.server.MarshalInputStream.resolveClass(MarshalInputStream.java:219)
+		at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1868)
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+		at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1930)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1567)
+		at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+		at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2167)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+		at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+		at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+		at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+		at com.sun.proxy.$Proxy10.subscribeUser(Unknown Source)
+		at chatsystem.servlet.Chat.doInit(Chat.java:91)
+		at chatsystem.servlet.Chat.processRequest(Chat.java:62)
+		at chatsystem.servlet.Chat.doGet(Chat.java:158)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 18:03:41.877 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.lang.StackTraceElement]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.lang.StackTraceElement]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:348)
+		at sun.rmi.server.LoaderHandler.loadClassForName(LoaderHandler.java:1221)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:175)
+		at java.rmi.server.RMIClassLoader$2.loadClass(RMIClassLoader.java:637)
+		at java.rmi.server.RMIClassLoader.loadClass(RMIClassLoader.java:264)
+		at sun.rmi.server.MarshalInputStream.resolveClass(MarshalInputStream.java:219)
+		at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1868)
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2042)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1950)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1567)
+		at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+		at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2167)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+		at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+		at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+		at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+		at com.sun.proxy.$Proxy10.subscribeUser(Unknown Source)
+		at chatsystem.servlet.Chat.doInit(Chat.java:91)
+		at chatsystem.servlet.Chat.processRequest(Chat.java:62)
+		at chatsystem.servlet.Chat.doGet(Chat.java:158)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 18:03:41.878 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.lang.StackTraceElement]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.lang.StackTraceElement]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:348)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:378)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:186)
+		at java.rmi.server.RMIClassLoader$2.loadClass(RMIClassLoader.java:637)
+		at java.rmi.server.RMIClassLoader.loadClass(RMIClassLoader.java:264)
+		at sun.rmi.server.MarshalInputStream.resolveClass(MarshalInputStream.java:219)
+		at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1868)
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2042)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readArray(ObjectInputStream.java:1950)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1567)
+		at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+		at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2167)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+		at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+		at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+		at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+		at com.sun.proxy.$Proxy10.subscribeUser(Unknown Source)
+		at chatsystem.servlet.Chat.doInit(Chat.java:91)
+		at chatsystem.servlet.Chat.processRequest(Chat.java:62)
+		at chatsystem.servlet.Chat.doGet(Chat.java:158)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 18:03:41.878 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.util.Collections$UnmodifiableList]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.util.Collections$UnmodifiableList]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:348)
+		at sun.rmi.server.LoaderHandler.loadClassForName(LoaderHandler.java:1221)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:175)
+		at java.rmi.server.RMIClassLoader$2.loadClass(RMIClassLoader.java:637)
+		at java.rmi.server.RMIClassLoader.loadClass(RMIClassLoader.java:264)
+		at sun.rmi.server.MarshalInputStream.resolveClass(MarshalInputStream.java:219)
+		at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1868)
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2042)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+		at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2167)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+		at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+		at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+		at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+		at com.sun.proxy.$Proxy10.subscribeUser(Unknown Source)
+		at chatsystem.servlet.Chat.doInit(Chat.java:91)
+		at chatsystem.servlet.Chat.processRequest(Chat.java:62)
+		at chatsystem.servlet.Chat.doGet(Chat.java:158)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 18:03:41.879 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.util.Collections$UnmodifiableList]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.util.Collections$UnmodifiableList]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:348)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:378)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:186)
+		at java.rmi.server.RMIClassLoader$2.loadClass(RMIClassLoader.java:637)
+		at java.rmi.server.RMIClassLoader.loadClass(RMIClassLoader.java:264)
+		at sun.rmi.server.MarshalInputStream.resolveClass(MarshalInputStream.java:219)
+		at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1868)
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2042)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+		at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2167)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+		at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+		at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+		at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+		at com.sun.proxy.$Proxy10.subscribeUser(Unknown Source)
+		at chatsystem.servlet.Chat.doInit(Chat.java:91)
+		at chatsystem.servlet.Chat.processRequest(Chat.java:62)
+		at chatsystem.servlet.Chat.doGet(Chat.java:158)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 18:03:41.879 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.util.Collections$UnmodifiableCollection]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.util.Collections$UnmodifiableCollection]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:348)
+		at sun.rmi.server.LoaderHandler.loadClassForName(LoaderHandler.java:1221)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:175)
+		at java.rmi.server.RMIClassLoader$2.loadClass(RMIClassLoader.java:637)
+		at java.rmi.server.RMIClassLoader.loadClass(RMIClassLoader.java:264)
+		at sun.rmi.server.MarshalInputStream.resolveClass(MarshalInputStream.java:219)
+		at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1868)
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+		at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1885)
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2042)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+		at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2167)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+		at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+		at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+		at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+		at com.sun.proxy.$Proxy10.subscribeUser(Unknown Source)
+		at chatsystem.servlet.Chat.doInit(Chat.java:91)
+		at chatsystem.servlet.Chat.processRequest(Chat.java:62)
+		at chatsystem.servlet.Chat.doGet(Chat.java:158)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 18:03:41.880 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.util.Collections$UnmodifiableCollection]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.util.Collections$UnmodifiableCollection]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:348)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:378)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:186)
+		at java.rmi.server.RMIClassLoader$2.loadClass(RMIClassLoader.java:637)
+		at java.rmi.server.RMIClassLoader.loadClass(RMIClassLoader.java:264)
+		at sun.rmi.server.MarshalInputStream.resolveClass(MarshalInputStream.java:219)
+		at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1868)
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+		at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1885)
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2042)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+		at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2167)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+		at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+		at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+		at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+		at com.sun.proxy.$Proxy10.subscribeUser(Unknown Source)
+		at chatsystem.servlet.Chat.doInit(Chat.java:91)
+		at chatsystem.servlet.Chat.processRequest(Chat.java:62)
+		at chatsystem.servlet.Chat.doGet(Chat.java:158)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 18:03:41.880 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.rmi.NoSuchObjectException]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.rmi.NoSuchObjectException]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:348)
+		at sun.rmi.server.LoaderHandler.loadClassForName(LoaderHandler.java:1221)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:175)
+		at java.rmi.server.RMIClassLoader$2.loadClass(RMIClassLoader.java:637)
+		at java.rmi.server.RMIClassLoader.loadClass(RMIClassLoader.java:264)
+		at sun.rmi.server.MarshalInputStream.resolveClass(MarshalInputStream.java:219)
+		at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1868)
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2042)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+		at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2167)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+		at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+		at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+		at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+		at com.sun.proxy.$Proxy10.subscribeUser(Unknown Source)
+		at chatsystem.servlet.Chat.doInit(Chat.java:91)
+		at chatsystem.servlet.Chat.processRequest(Chat.java:62)
+		at chatsystem.servlet.Chat.doGet(Chat.java:158)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 18:03:41.881 INFORMATION [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.rmi.NoSuchObjectException]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.rmi.NoSuchObjectException]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1385)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1226)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1188)
+		at java.lang.Class.forName0(Native Method)
+		at java.lang.Class.forName(Class.java:348)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:378)
+		at sun.rmi.server.LoaderHandler.loadClass(LoaderHandler.java:186)
+		at java.rmi.server.RMIClassLoader$2.loadClass(RMIClassLoader.java:637)
+		at java.rmi.server.RMIClassLoader.loadClass(RMIClassLoader.java:264)
+		at sun.rmi.server.MarshalInputStream.resolveClass(MarshalInputStream.java:219)
+		at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1868)
+		at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1751)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2042)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:2287)
+		at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:2167)
+		at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2069)
+		at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1573)
+		at java.io.ObjectInputStream.readObject(ObjectInputStream.java:431)
+		at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:252)
+		at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161)
+		at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227)
+		at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179)
+		at com.sun.proxy.$Proxy10.subscribeUser(Unknown Source)
+		at chatsystem.servlet.Chat.doInit(Chat.java:91)
+		at chatsystem.servlet.Chat.processRequest(Chat.java:62)
+		at chatsystem.servlet.Chat.doGet(Chat.java:158)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 18:03:41.882 SCHWERWIEGEND [http-nio-8080-exec-1] org.apache.coyote.http11.Http11Processor.service Fehler bei der Verarbeitung der Anfrage
+	java.lang.NullPointerException
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:412)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 18:03:41.882 WARNUNG [http-nio-8080-exec-1] org.apache.catalina.connector.CoyoteAdapter.log Exception while attempting to add an entry to the access log
+	java.lang.NullPointerException
+		at org.apache.catalina.connector.CoyoteAdapter.log(CoyoteAdapter.java:490)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:403)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 18:03:54.402 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-May-2020 18:03:54.402 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-May-2020 18:03:55.098 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-May-2020 18:03:55.116 SCHWERWIEGEND [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesRmiTargets Found RMI Target with stub class class [com.sun.proxy.$Proxy5] and value [Proxy[ClientProxy,RemoteObjectInvocationHandler[UnicastRef [liveRef: [endpoint:[192.168.0.121:54328](local),objID:[-601aeccb:1725bf9b93d:-7fff, 879453148884181384]]]]]]. This RMI Target has been forcibly removed to prevent a memory leak.
+28-May-2020 18:03:55.121 INFORMATION [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 18:03:56.128 INFORMATION [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 18:03:57.136 INFORMATION [main] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [de.hsos.vs.BillBoardServlet]
+28-May-2020 18:03:57.238 WARNUNG [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [VS_P08_BillBoard] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.Thread.sleep(Native Method)
+ de.hsos.vs.BillBoardServlet.doGet(BillBoardServlet.java:67)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+28-May-2020 18:03:57.240 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-May-2020 18:03:57.241 SCHWERWIEGEND [http-nio-8080-exec-10] org.apache.coyote.http11.Http11Processor.service Fehler bei der Verarbeitung der Anfrage
+	java.lang.NullPointerException
+		at org.apache.catalina.connector.OutputBuffer.realWriteChars(OutputBuffer.java:445)
+		at org.apache.catalina.connector.OutputBuffer.flushCharBuffer(OutputBuffer.java:781)
+		at org.apache.catalina.connector.OutputBuffer.close(OutputBuffer.java:233)
+		at org.apache.catalina.connector.Response.finishResponse(Response.java:442)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:374)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+28-May-2020 18:03:57.242 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

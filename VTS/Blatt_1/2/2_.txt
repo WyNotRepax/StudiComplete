@@ -1,0 +1,14 @@
+1
+	a)
+		TCP: ss -t
+		UDP: ss -u
+		netstat
+	b)
+		ipconfig Subnetzmaske
+		arp -a <ip-Adresse>
+	c)
+		ping <ip-Adresse/URL>
+	d)
+		tracert <ip-Adresse/URL>
+2
+	netstat -p

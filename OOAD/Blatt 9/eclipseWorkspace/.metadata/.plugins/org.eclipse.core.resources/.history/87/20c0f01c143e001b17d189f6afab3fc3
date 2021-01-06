@@ -1,0 +1,41 @@
+/**
+ * Author: Benno Steinkamp
+ * Date: 14.12.2020
+ */
+package Kaempfer;
+
+import Ausruestung.Ruestung;
+import Ausruestung.Waffe;
+
+public class Blobb extends Kaempfer {
+	private Waffe waffe;
+
+	public Blobb(int gesundheit, int geschick, int sold) {
+		super(gesundheit, geschick, sold);
+	}
+
+	@Override
+	public void nimmWaffe(Waffe w) {
+		this.waffe = w;
+
+	}
+
+	@Override
+	public void nimmRuestung(Ruestung r) {
+
+	}
+
+	public Waffe getWaffe() {
+		return waffe;
+	}
+
+	public void setWaffe(Waffe waffe) {
+		this.waffe = waffe;
+	}
+
+	@Override
+	public int kaempfen() {
+		return waffe.getStaerke() + this.getGeschick();
+	}
+
+}

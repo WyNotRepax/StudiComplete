@@ -1,0 +1,64 @@
+*** Zunaechst wird der normale Betrieb der Fifo-Klasse abgetestet ***
+> Fifo aus Textdatei fuellen
+> Fifo ausgeben
+So
+kann
+also
+die
+Mathematik
+definiert
+werden
+als
+diejenige
+Wissenschaft,
+in
+der
+wir
+niemals
+das
+kennen,
+worüber
+wir
+sprechen,
+und
+niemals
+wissen,
+ob
+das,
+was
+wir
+sagen,
+wahr
+ist.
+> Fifo mittels Ein- und Ausgabeoperator fuellen
+> tiefe Kopie anlegen und zuweisen
+Selbstzuweisung: Es wird keine Kopie durchgefuehrt.
+> Fifo-Kopien ausgeben (die erste drei Werte muessen jeweils gleich sein)
+  s:
+One
+Two
+Three
+Fifo sollte nun leer sein - tatsaechliche Anzahl der Elemente: 0
+  kopie1:
+One
+Two
+Three
+Four
+Fifo sollte nun leer sein - tatsaechliche Anzahl der Elemente: 0
+  kopie2:
+Inhalt des Fifos:
+One
+Two
+Three
+Five
+Fifo sollte noch alle Elemente enthalten - tatsaechliche Anzahl der Elemente: 4
+*** Es werden nun Fifo-Unterlaeufe passieren ***
+> Erwartete Ausnahme wegen Fifo-Unterlauf:
+ >>> Fifo Unterlauf
+> Fifo mittels Ein- und Ausgabeoperator fuellen
+> Fifo ausgeben und Unterlauf herbeifuehren
+Eins
+Zwei
+Drei
+> Erwartete Ausnahme wegen Fifo-Unterlauf:
+ >>> Fifo Unterlauf

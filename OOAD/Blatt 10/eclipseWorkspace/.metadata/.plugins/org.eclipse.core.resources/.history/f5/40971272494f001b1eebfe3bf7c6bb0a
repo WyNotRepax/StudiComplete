@@ -1,0 +1,22 @@
+package visitor;
+
+import interfaces.Visitor;
+import interfaces.Zutat;
+
+public class VisitorSI implements Visitor {
+
+	@Override
+	public String visit(Zutat zutat) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	private String visit(Fluessigkeit fluessigkeit) {
+		
+	}
+	
+	private String visit(Feststoff feststoff) {
+		
+	}
+	
+}

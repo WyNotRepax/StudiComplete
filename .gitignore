@@ -1,0 +1,8 @@
+OOAD/kleukersSEU
+*.class
+*.o
+*.exe
+*.zip
+
+*.DS_Store
+*.ipch

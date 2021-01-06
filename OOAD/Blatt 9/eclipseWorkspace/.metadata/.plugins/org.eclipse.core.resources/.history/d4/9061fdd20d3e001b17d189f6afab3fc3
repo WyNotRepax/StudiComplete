@@ -1,0 +1,16 @@
+/**
+ * Author: Benno Steinkamp
+ * Date: 14.12.2020
+ */
+package Ausruestung;
+
+public class Waffe extends Ausruestung {
+	
+	private int staerke;
+
+	public Waffe(String name,int staerke, int preis) {
+		super(name, preis);
+		this.staerke = staerke;
+	}
+	
+}

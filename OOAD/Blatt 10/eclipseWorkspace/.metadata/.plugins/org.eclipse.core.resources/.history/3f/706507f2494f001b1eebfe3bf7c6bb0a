@@ -1,0 +1,27 @@
+package visitor;
+
+import entity.Feststoff;
+import entity.Fluessigkeit;
+import interfaces.Visitor;
+import interfaces.Zutat;
+
+public class VisitorSI implements Visitor {
+
+	@Override
+	public String visit(Zutat zutat) {
+		if(zutat instanceof Fluessigkeit) {
+			return this.visit((Feststoff)zutat);
+		}
+	}
+	
+	private String visit(Fluessigkeit fluessigkeit) {
+		return "FLUESSIGKEIT";
+		
+	}
+	
+	private String visit(Feststoff feststoff) {
+		return "FESTSTOFF";
+		
+	}
+	
+}

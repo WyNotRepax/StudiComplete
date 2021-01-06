@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+      <title>Aufgabe05_UIEWS1819</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+    <h1>Informatik Arbeitskreis</h1>
+    <div class="headingText">
+      <p>
+        Wir führen im Laufe des Jahres eine Reihe von Informatik-Arbeitskreisen und Symposien durch.<br>
+        Bitte beachten Sie, das die folgenden Veranstaltungen für Mitglieder kostenlos sind.
+      </p>
+      <ul>
+        <li>Informatik/Technische Informatik</li>
+        <li>Medieninformatik</li>
+        <li>Informationstechnologie</li>
+      </ul>
+    </div>
+    <table>
+      <tr>
+        <th></th>
+        <th>SD002</th>
+        <th>SI38</th>
+        <th>SD100</th>
+      </tr>
+      <tr>
+        <th>Informatik/Technische Informatik</th>
+        <td>Montag, 10.Dezember 2018 <br>11-14:00h</td>
+        <td>Dienstag, 11. Dezember 2018 <br>11-14:00h</td>
+        <td>Donnerstag, 13.Dezember 2018 <br>11-14:00h</td>
+      </tr>
+      <tr>
+        <th>Medieninformatik</th>
+        <td>Montag, 10.Dezember 2018 <br>08-11:00h</td>
+        <td>Dienstag, 11. Dezember 2018 <br>08-11:00h</td>
+        <td>Donnerstag, 13.Dezember 2018 <br>08-11:00h</td>
+      </tr>
+      <tr>
+        <th>Informationstechnologie</th>
+        <td>Montag, 17.Dezember 2018 <br>08-11:00h</td>
+        <td>Dienstag, 18. Dezember 2018 <br>08-11:00h</td>
+        <td>Donnerstag, 20.Dezember 2018 <br>08-11:00h</td>
+      </tr>
+      <tr>
+        <th>Interactiondesign</th>
+        <td>Montag, 17.Dezember 2018 <br>11-14:00h</td>
+        <td>Dienstag, 18. Dezember 2018 <br>11-14:00h</td>
+        <td>Donnerstag, 20.Dezember 2018 <br>11-14:00h</td>
+      </tr>
+    </table>
+
+    <form>
+      <fieldset class="Registrieren">
+        <legend >Registrieren</legend>
+        <div class="text">
+          <label for="name" class="label">Name: </label>
+          <input type="text" placeholder="Max Mustermann" id="name" /><br>
+        </div>
+        <div class="text">
+          <label for="email" class="label">E-Mail: </label>
+          <input
+            type="email"
+            placeholder="max.mustermann@example.com"
+            id="email"
+          /><br>
+        </div>
+        <div class="dropdown">
+          <span class="label">Ort: </span>
+          <select>
+            <option>SD002</option>
+            <option>SI38</option>
+            <option>SD100</option>
+          </select>
+        </div>
+        <div class="radio-button">
+          <span class="label">Mitglied: </span> <label for="Ja">Ja:</label>
+          <input id="Ja" type="radio" value="Ja" name="Mitglied" />
+          <label for="Nein">Nein:</label>
+          <input id="Nein" type="radio" value="Nein" name="Mitglied" />
+        </div>
+        <div class="submit"><input type="submit" value="Senden" /></div>
+      </fieldset>
+    </form>
+  </body>
+</html>

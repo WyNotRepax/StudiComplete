@@ -1,0 +1,138 @@
+#include "rgbimage.h"
+#include "color.h"
+#include "assert.h"
+
+int const RGBImage::SobelWeights[3][3] = { {1,0,-1},{2,0,-2},{1,0,-1} };
+
+RGBImage::RGBImage(unsigned int Width, unsigned int Height) :m_Width(Width), m_Height(Height)
+{
+	m_Image = new Color[Width * Height];
+}
+
+RGBImage::~RGBImage()
+{
+	free(m_Image);
+}
+
+void RGBImage::setPixelColor(unsigned int x, unsigned int y, const Color& c)
+{
+	if (x < 0 || x >= m_Width || y < 0 || y >= m_Height) {
+		throw "Coordinates outside of Image!";
+	}
+	//printf("Setting pixel (%d,%d) to RGB(%f,%f,%f)\n", x, y, c.R, c.G, c.B);
+	m_Image[x + y * m_Width] = c;
+}
+
+const Color& RGBImage::getPixelColor(unsigned int x, unsigned int y) const
+{
+	//printf("GET(%d,%d)\n", x, y);
+	if (x >= m_Width || y >= m_Height) {
+		printf("BREAK");
+	}
+	assert(x < m_Width);
+	assert(y < m_Height);
+	return m_Image[x + y * m_Width];
+}
+
+float RGBImage::getGrayScale(unsigned int x, unsigned int y) const
+{
+	Color c = getPixelColor(x, y);
+	return (c.R + c.G + c.B) / 3.0f;
+}
+
+unsigned int RGBImage::width() const
+{
+	return m_Width;
+}
+unsigned int RGBImage::height() const
+{
+	return m_Height;
+}
+
+unsigned char RGBImage::convertColorChannel(float v)
+{
+	if (v < 0) {
+		v = 0.0f;
+	}
+	else if (v > 1) {
+		v = 1.0f;
+	}
+	//printf("%f -> %d\n", v, (unsigned char)(v * 255.0f));
+	return (unsigned char)(v * 255.0f);
+}
+
+RGBImage& RGBImage::SobelFilter(RGBImage& dst, const RGBImage& src, float factor)
+{
+	assert(dst.width() == src.width());
+	assert(dst.height() == src.height());
+	for (unsigned int x = 0; x < src.width(); x++) {
+		for (unsigned int y = 0; y < src.height(); y++) {
+			float u = 0;
+			float v = 0;
+			for (unsigned int i = 0; i <= 2; i++) {
+				for (unsigned int j = 0; j <= 2; j++) {
+					if (x + i >= 1 && x + i < src.width() + 1 && y + j >= 1 && y + j < src.height() + 1) {
+						//printf("%f + %f * %f =", u, src.getGrayScale(x, y), (float)SobelWeights[i][j]);
+						u += (src.getGrayScale(x + i - 1, y + j - 1) * (float)SobelWeights[i][j]);
+						v += (src.getGrayScale(x + i - 1, y + j - 1) * (float)SobelWeights[j][i]);
+						//printf("%f\n", u);
+					}
+				}
+			}
+			float s = sqrt(u * u + v * v);
+			s *= factor;
+			//printf("x:%d,y:%d,u:%f,v:%f,s:%f\n", x, y, uGrayScale, vGrayScale, s);
+			//printf("%f->%f\n", src.getGrayScale(x,y),s);
+			dst.setPixelColor(x, y, Color(s, s, s));
+		}
+	}
+	return dst;
+}
+
+
+
+bool RGBImage::saveToDisk(const char* Filename) const
+{
+	bfSize_t bfSize = bfOffBits + (m_Width * m_Height * biBitCount / 8);
+	biWidth_t biWidth = m_Width;
+	biHeight_t biHeight = m_Height;
+	biSizeImage_t biSizeImage = m_Width * m_Height * biBitCount / 8;
+
+	FILE* file = fopen(Filename, "wb");
+	if (file == nullptr) {
+		return false;
+	}
+	fwrite(&bfType, sizeof(bfType_t), 1, file);
+	fwrite(&bfSize, sizeof(bfSize_t), 1, file);
+	fwrite(&bfReserved, sizeof(bfReserved_t), 1, file);
+	fwrite(&bfOffBits, sizeof(bfOffBits_t), 1, file);
+	fwrite(&biSize, sizeof(biSize_t), 1, file);
+	fwrite(&biWidth, sizeof(biWidth_t), 1, file);
+	fwrite(&biHeight, sizeof(biHeight_t), 1, file);
+	fwrite(&biPlanes, sizeof(biPlanes_t), 1, file);
+	fwrite(&biBitCount, sizeof(biBitCount_t), 1, file);
+	fwrite(&biCompression, sizeof(biCompression_t), 1, file);
+	fwrite(&biSizeImage, sizeof(biSizeImage_t), 1, file);
+	fwrite(&biXPelsPerMeter, sizeof(biXPelsPerMeter_t), 1, file);
+	fwrite(&biYPelsPerMeter, sizeof(biYPelsPerMeter_t), 1, file);
+	fwrite(&biClrUsed, sizeof(biClrUsed_t), 1, file);
+	fwrite(&biClrImportant, sizeof(biClrImportant_t), 1, file);
+	int padN = (m_Width * 3) % 4;
+	char pad = 0x00;
+	for (int y = m_Height - 1; y >= 0; y--) {
+		for (int x = 0; x < m_Width; x++) {
+			Color current = getPixelColor(x, y);
+			unsigned char red = convertColorChannel(current.R);
+			unsigned char green = convertColorChannel(current.G);
+			unsigned char blue = convertColorChannel(current.B);
+			unsigned char buf[] = { blue,green,red };
+			fwrite(buf, sizeof(char), 3, file);
+		}
+		for (int i = 0; i < padN; i++) {
+			fwrite(&pad, sizeof(char), 1, file);
+		}
+
+	}
+	fclose(file);
+	return true;
+}

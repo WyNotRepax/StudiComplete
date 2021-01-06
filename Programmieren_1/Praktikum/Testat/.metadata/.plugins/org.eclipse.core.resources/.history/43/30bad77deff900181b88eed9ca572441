@@ -1,0 +1,27 @@
+
+public class BennoSteinkamp {
+	static String student = "Benno Steinkamp";
+	static String[] stringArray = null;
+	
+	public static void main(String[] args) {
+		
+		adventsKalender();
+		
+		System.out.println("Array");
+		stringArray = init();
+		ausgeben(stringArray);
+		ausgeben(stringArray,9);
+		ausgeben(reverse(stringArray));
+		concat(stringArray);
+		ausgeben(stringArray);
+		stringArray = reverse(stringArray);
+		ausgeben(stringArray);
+		
+		String teacher = "";
+		System.out.println(teacher);
+	}
+	
+	public static void adventsKalender(){
+		int zufallszahl = (int)(Math.random()*26) + 1;
+	}
+}

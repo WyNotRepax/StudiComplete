@@ -1,0 +1,20 @@
+package zustand;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Zustand {
+	private Map<Character,Zustand> uebergaenge;;
+	
+	public Zustand() {
+		uebergaenge = new HashMap<>();
+	}
+	
+	public Zustand uebergang(char c) {
+		return this.uebergaenge.get(c);
+	}
+	
+	public void uebergangHinzufuegen(char zeichen, Zustand zustand) {
+		uebergaenge.put(zeichen, zustand);
+	}
+}

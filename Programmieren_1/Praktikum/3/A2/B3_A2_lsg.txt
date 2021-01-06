@@ -1,0 +1,7 @@
+Kabel 1: F
+Kabel 2: W
+Kabel 3: W
+Kabel 4: F
+Kabel 5: F
+Kabel 6: F
+Kabel 7: W

@@ -1,0 +1,9 @@
+package view;
+
+public class View {
+	private final String zeichen;
+
+	public View(String zeichen) {
+		this.zeichen = zeichen;
+	}
+}

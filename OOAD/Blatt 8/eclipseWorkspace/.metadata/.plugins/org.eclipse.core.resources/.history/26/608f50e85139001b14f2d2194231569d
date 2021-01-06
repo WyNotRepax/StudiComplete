@@ -1,0 +1,11 @@
+package entity;
+
+public class Mitarbeiter implements Whiteboardobserver {
+
+	@Override
+	public void update(String nachricht) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

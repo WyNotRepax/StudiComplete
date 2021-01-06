@@ -1,0 +1,11 @@
+chatsystem\server\ChatServerImpl$ChatProxyImpl.class
+chatsystem\servlet\ClientProxyImpl.class
+chatsystem\ChatServer.class
+chatsystem\ClientProxy.class
+chatsystem\servlet\ClientProxyImpl$Message.class
+chatsystem\server\ChatServerImpl.class
+chatsystem\client\ClientProxyImpl.class
+chatsystem\ChatProxy.class
+chatsystem\servlet\Chat.class
+chatsystem\client\Client.class
+chatsystem\Main.class

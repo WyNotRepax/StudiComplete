@@ -1,0 +1,10 @@
+LaunchTargetManager/configs/MitarbeiterBuilderTest=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Main,org.eclipse.launchbar.core.descriptorType.default\:MitarbeiterBuilderTest
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Main/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Main/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:MitarbeiterBuilderTest/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:MitarbeiterBuilderTest/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

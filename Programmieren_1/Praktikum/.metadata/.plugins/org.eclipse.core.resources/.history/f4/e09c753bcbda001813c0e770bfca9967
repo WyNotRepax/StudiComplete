@@ -1,0 +1,7 @@
+
+public class A4 {
+	public static void main(String[] args) {
+		int i = 9 + 3 * 12;
+		System.out.println(i);
+	}
+}

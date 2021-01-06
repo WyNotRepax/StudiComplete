@@ -1,0 +1,6 @@
+#ifndef JSONPARSE_LIBRARY_H
+#define JSONPARSE_LIBRARY_H
+
+void hello();
+
+#endif //JSONPARSE_LIBRARY_H

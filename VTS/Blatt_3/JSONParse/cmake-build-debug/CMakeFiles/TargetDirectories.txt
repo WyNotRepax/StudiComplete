@@ -1,0 +1,3 @@
+C:/Users/benno/OneDrive/Studi/VTS/Blatt 3/JSONParse/cmake-build-debug/CMakeFiles/JSONParse.dir
+C:/Users/benno/OneDrive/Studi/VTS/Blatt 3/JSONParse/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/benno/OneDrive/Studi/VTS/Blatt 3/JSONParse/cmake-build-debug/CMakeFiles/rebuild_cache.dir

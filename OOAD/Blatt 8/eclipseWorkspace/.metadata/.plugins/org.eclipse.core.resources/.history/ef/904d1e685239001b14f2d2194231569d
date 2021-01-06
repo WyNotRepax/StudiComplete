@@ -1,0 +1,20 @@
+package entity;
+
+public class Projektwhiteboard extends Whiteboard implements Whiteboardobserver {
+
+	private String name;
+	
+	Projektwhiteboard(String projektname){
+		super();
+		this.name = projektname;
+	}
+	
+	@Override
+	public void update(String nachricht) {
+		this.observerInformieren(nachricht);
+	}
+
+	public void neueInformation(String information) {
+		this.observerInformieren(information);
+	}
+}

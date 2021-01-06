@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000">
+    <filter id="heavyBlur">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="80" />
+    </filter>
+    <filter id="lightBlur">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+    </filter>
+    <defs>
+        <mask id="heart">
+            <rect x="0" y="0" width="100%" height="100%" fill="white" filter="url(#heavyBlur)"/>
+            <circle cx="400" cy="400" r="283" fill="black" filter="url(#lightBlur)"></circle>
+            <circle cx="800" cy="400" r="283" fill="black" filter="url(#lightBlur)"></circle>
+            <polygon points="600,200 200,600 600,1000 1000,600" fill="black" filter="url(#lightBlur)"></polygon>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" mask="url(#heart)" fill="rgba(240, 128, 128 ,0.8)"></rect>
+</svg>

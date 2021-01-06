@@ -1,0 +1,7 @@
+package zustand;
+
+public class Zustand {
+	public Zustand schritt(char c) {
+		
+	}
+}

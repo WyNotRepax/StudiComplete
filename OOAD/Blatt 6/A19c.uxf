@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>168</x>
+      <y>360</y>
+      <w>252</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Klasse
+--
+-typ: String
+-name: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1728</x>
+      <y>432</y>
+      <w>252</w>
+      <h>228</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Stereotype&gt;&gt;
+Package::FatClass
+{Some Properties}
+--
+-id: Long {composite}
+_-ClassAttribute: Long_
+--
+#Operation(i: int): int
+/+AbstractOperation()/
+--
+Responsibilities
+-- Resp1
+-- Resp2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1080</x>
+      <y>528</y>
+      <w>252</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Übergabeparameter
+--
+-name: String
+-typ: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>408</x>
+      <y>396</y>
+      <w>228</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-attribute
+m1=*
+m2=1</panel_attributes>
+    <additional_attributes>170.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>360</y>
+      <w>252</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Attribut
+--
+-name: String
+-typ: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>408</x>
+      <y>432</y>
+      <w>228</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-methoden
+m1=*
+m2=1</panel_attributes>
+    <additional_attributes>170.0;100.0;50.0;100.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>492</y>
+      <w>252</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entity&gt;&gt;
+Methode
+--
+-name: String
+-rückgabetyp: String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>852</x>
+      <y>588</y>
+      <w>252</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-übergabeparameter
+m1=*
+m2=1</panel_attributes>
+    <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1080</x>
+      <y>360</y>
+      <w>252</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumeration&gt;&gt;
+Sichtbarkeit
+--
+"+"
+"-"
+""
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>852</x>
+      <y>396</y>
+      <w>252</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-sichtbarkeit
+m1=1
+m2=*</panel_attributes>
+    <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>852</x>
+      <y>444</y>
+      <w>252</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-sichtbarkeit
+m1=1
+m2=*</panel_attributes>
+    <additional_attributes>190.0;20.0;160.0;20.0;160.0;90.0;10.0;90.0</additional_attributes>
+  </element>
+</diagram>

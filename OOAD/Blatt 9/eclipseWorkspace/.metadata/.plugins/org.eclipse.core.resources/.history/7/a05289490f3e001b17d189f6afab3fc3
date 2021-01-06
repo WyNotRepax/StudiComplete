@@ -1,0 +1,38 @@
+/**
+ * Author: Benno Steinkamp
+ * Date: 14.12.2020
+ */
+package Kaempfer;
+
+import Ausruestung.Ruestung;
+import Ausruestung.Waffe;
+
+/**
+ * @author benno
+ *
+ */
+public class Xenia extends Kaempfer {
+	
+	private Waffe waffe;
+	private Ruestung ruestung;
+
+	
+	
+	public Xenia(int gesundheit, int geschick, int sold) {
+		super(gesundheit, geschick, sold);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void nimmWaffe(Waffe w) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void nimmRuestung(Ruestung r) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="width">30</integer>
+    <integer name="height">20</integer>
+    <integer name="bombNumber">50</integer>
+</resources>

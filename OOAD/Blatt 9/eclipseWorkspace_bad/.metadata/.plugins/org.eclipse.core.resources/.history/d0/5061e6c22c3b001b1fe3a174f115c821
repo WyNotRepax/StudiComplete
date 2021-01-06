@@ -1,0 +1,11 @@
+package zustand;
+
+import java.util.Map;
+
+public class Zustand {
+	private Map<Character,Zustand> nächstezu;
+	
+	public Zustand schritt(char c) {
+		return this.schritte.
+	}
+}

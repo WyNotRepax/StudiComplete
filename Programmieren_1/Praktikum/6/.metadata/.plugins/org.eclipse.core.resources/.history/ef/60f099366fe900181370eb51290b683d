@@ -1,0 +1,85 @@
+import java.util.Random;
+
+public class Schiebespiel {
+	static int WIDTH = 4;
+	static int HEIGHT = 4;
+
+	static int LEER = 0;
+
+	static int r0 = 0;
+	static int c0 = 0;
+
+	static Random random = new Random(System.currentTimeMillis());
+
+	static int[][] field = new int[HEIGHT][WIDTH];
+
+	public static void main(String[] args) {
+		printField();
+		init();
+		printField();
+		randomize(10000);
+		while (true) {
+
+			printField();
+			int r = -1;
+			int c = -1;
+			do {
+				r = IO.readInt("Zeile: ") - 1;
+				c = IO.readInt("Spalte: ") - 1;
+			} while (r < 0 || r >= HEIGHT || c < 0 || c >= WIDTH);
+			move(r, c);
+		}
+	}
+
+	static void printField() {
+		for (int r = 0; r < HEIGHT; r++) {
+			IO.println("+--+--+--+--+");
+			for (int c = 0; c < WIDTH; c++) {
+				IO.print("|" + String.format("%1$-2s", (field[r][c] == LEER) ? " " : field[r][c]));
+			}
+			IO.println("|");
+		}
+		IO.println("+--+--+--+--+");
+	}
+
+	public static void init() {
+		int n = 0;
+		while (n < WIDTH * HEIGHT) {
+			field[n / WIDTH][n % WIDTH] = n;
+			n++;
+		}
+	}
+
+	public static void move(int r, int c) {
+		IO.println("Move " + r + " " + c);
+		if (!(r < 0 || r >= HEIGHT || c < 0 || c >= WIDTH)) {
+			IO.println("Not");
+			if (Math.abs(r - r0) == 1 && Math.abs(c - c0) == 1) {
+				IO.println("Not2")
+				field[r0][c0] = field[r][c];
+				field[r][c] = 0;
+				r0 = r;
+				c0 = c;
+			}
+		}
+	}
+
+	public static void randomize(int n) {
+		for (int i = 0; i < n; i++) {
+			switch (random.nextInt(4)) {
+			case 0:
+				move(r0 - 1, c0);
+				break;
+			case 1:
+				move(r0 + 1, c0);
+				break;
+			case 2:
+				move(r0, c0 + 1);
+				break;
+			case 3:
+				move(r0, c0 - 1);
+				break;
+			}
+		}
+	}
+}

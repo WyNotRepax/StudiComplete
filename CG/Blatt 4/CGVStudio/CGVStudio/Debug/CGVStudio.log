@@ -1,0 +1,6 @@
+﻿  Application.cpp
+C:\Users\benno\OneDrive\Studi\CG\Blatt 4\src\Application.cpp(97,38): warning C4244: "+=": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\benno\OneDrive\Studi\CG\Blatt 4\src\Application.cpp(101,26): warning C4305: "Argument": Verkürzung von "double" in "float"
+C:\Users\benno\OneDrive\Studi\CG\Blatt 4\src\Application.cpp(141,17): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Users\benno\OneDrive\Studi\CG\Blatt 4\src\Application.cpp(142,17): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  CGVStudio.vcxproj -> C:\Users\benno\OneDrive\Studi\CG\Blatt 4\CGVStudio\Debug\CGVStudio.exe

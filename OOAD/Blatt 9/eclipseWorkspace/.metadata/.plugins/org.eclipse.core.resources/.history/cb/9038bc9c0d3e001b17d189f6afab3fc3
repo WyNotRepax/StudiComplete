@@ -1,0 +1,13 @@
+/**
+ * Author: Benno Steinkamp
+ * Date: 14.12.2020
+ */
+package Ausruestung;
+
+/**
+ * @author benno
+ *
+ */
+public class Waffe extends Ausruestung {
+
+}

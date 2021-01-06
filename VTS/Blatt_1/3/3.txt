@@ -1,0 +1,33 @@
+3
+	telnet <ip> <port>
+	https://tf.nist.gov/tf-cgi/servers.cgi
+1.
+
+Compilieren
+
+gcc -o daytime daytime.c
+
+Starten
+
+./daytime 131.173.110.4
+
+testen
+
+telnet 131.173.110.4 9013
+
+Trying 131.173.110.4...
+Connected to 131.173.110.4.
+Escape character is '^]'.
+Thursday Mar 12 17:39:48 2020
+
+telnet 131.173.110.10 9013
+
+Trying 131.173.110.10...
+Connected to 131.173.110.10.
+Escape character is '^]'.
+Thursday Mar 12 17:41:34 2020
+Trying 132.163.97.2...
+Connected to ntp1.glb.nist.gov.
+Escape character is '^]'.
+
+58920 20-03-12 16:50:21 50 0 0 447.7 UTC(NIST) * 

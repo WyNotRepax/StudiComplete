@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.naming.OperationNotSupportedException"/>
+    <fullyQualifiedTypeName name="Kaempfer.Kaempfer"/>
+    <fullyQualifiedTypeName name="Ausruestung.Ruestung"/>
+    <fullyQualifiedTypeName name="Ausruestung.Waffe"/>
+    <fullyQualifiedTypeName name="Kaempfer.Conan"/>
+    <fullyQualifiedTypeName name="Kaempfer.Xenia"/>
+    <fullyQualifiedTypeName name="Kaempfer.Blobb"/>
+    <fullyQualifiedTypeName name="Kaempfer.SchwarzerRitter"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="kaempfer.Kaempfer"/>
+    <fullyQualifiedTypeName name="java.util.function.ToIntFunction"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

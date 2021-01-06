@@ -1,0 +1,17 @@
+package zustand;
+
+public class S1 implements Zustand {
+
+	@Override
+	public Zustand a() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Zustand b() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

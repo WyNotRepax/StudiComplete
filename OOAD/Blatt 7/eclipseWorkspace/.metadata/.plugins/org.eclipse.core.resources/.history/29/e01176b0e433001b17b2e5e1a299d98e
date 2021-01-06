@@ -1,0 +1,11 @@
+package nutzerverwaltung.entity;
+
+public abstract class Nutzer {
+	private String login;
+	private String passwort;
+	private Nutzer() {}
+	private Nutzer(String login, String passwort) {
+		this.login = login;
+		this.passwort = passwort;
+	}
+}

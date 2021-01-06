@@ -1,0 +1,18 @@
+
+public class B3_A9 {
+	public static void main(String[] args) {
+		;
+	}
+
+	static int addiere(int a, int b) {
+		return a + b;
+	}
+
+	static int subtrahiere(int a, int b) {
+		return a - b;
+	}
+
+	static int multipliziere(int a, intb){
+		return a*b;
+	}
+}

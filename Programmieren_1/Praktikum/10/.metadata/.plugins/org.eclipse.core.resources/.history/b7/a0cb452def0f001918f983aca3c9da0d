@@ -1,0 +1,9 @@
+
+public class Ordnungsfrage extends Frage{
+	static String text = "Ordnen Sie die folgenden deutschen Städte von Nord nach Süd!";
+	Ordnungsfrage(String text, int punkte) {
+		super(text, punkte);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+public class B3_A6{
+    public static void main(String[] args) {
+        IO.print("Vorname: ");
+        String firstName = IO.readString();
+        IO.print("Nachname: ");
+        String lastName = IO.readString();
+        IO.println("Hallo " + firstName + " " + lastName);
+    }
+}

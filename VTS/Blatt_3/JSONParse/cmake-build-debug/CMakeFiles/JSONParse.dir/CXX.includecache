@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/benno/OneDrive/Studi/VTS/Blatt 3/JSONParse/JsonObject.cpp
+JsonObject.h
+C:/Users/benno/OneDrive/Studi/VTS/Blatt 3/JSONParse/JsonObject.h
+
+C:/Users/benno/OneDrive/Studi/VTS/Blatt 3/JSONParse/JsonObject.h
+string
+-
+vector
+-
+JsonValue.h
+C:/Users/benno/OneDrive/Studi/VTS/Blatt 3/JSONParse/JsonValue.h
+JsonProperty.h
+C:/Users/benno/OneDrive/Studi/VTS/Blatt 3/JSONParse/JsonProperty.h
+
+C:/Users/benno/OneDrive/Studi/VTS/Blatt 3/JSONParse/JsonProperty.h
+string
+-
+JsonValue.h
+C:/Users/benno/OneDrive/Studi/VTS/Blatt 3/JSONParse/JsonValue.h
+
+C:/Users/benno/OneDrive/Studi/VTS/Blatt 3/JSONParse/JsonValue.h
+

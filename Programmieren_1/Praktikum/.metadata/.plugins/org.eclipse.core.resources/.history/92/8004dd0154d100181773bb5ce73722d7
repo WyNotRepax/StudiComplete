@@ -1,0 +1,10 @@
+
+public class B3_A9 {
+	public static void main(String[] args) {
+		
+	}
+	
+	static int addiere(int a, int b){
+		
+	}
+}

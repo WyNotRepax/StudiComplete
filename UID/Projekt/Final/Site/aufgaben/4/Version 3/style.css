@@ -1,0 +1,312 @@
+:root {
+  /*Global Variables*/
+  --main-color: hsl(147, 30%, 10%);
+  --text-color-main: hsl(147, 30%, 80%);
+  --text-color-heading: hsl(147, 100%, 3%);
+  --background-mixer: hsla(147, 80%, 70%, 0.5);
+  --navduration: 250ms;
+}
+
+body,
+html {
+  /*Fixes Background*/
+  height: 100%;
+  width: 100%;
+  /*Default Font and Textcolor*/
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color-main);
+}
+
+body {
+  /*Background before bg-image has been processed*/
+  background-color: var(--main-color);
+  
+  /*Removes vertical scrollbar at fullscreen*/
+  margin:0px;
+}
+
+* {
+  /*Removes vertical scrollbar at fullscreen*/
+  box-sizing: border-box;
+}
+
+/*Sets up blurred background image*/
+.bg-image {
+  /*fixes backround relative to viewport*/
+  position: fixed;
+
+  /*Positioning*/
+  top: 0px;
+  left: 0px;
+
+  /*Sizing*/
+  height: 100%;
+  width: 100%;
+
+  /*Background picture and color*/
+  background-image: url("img/baume-grun-natur-113338-small-min.jpg");
+  background-color: var(--main-color);
+
+  /*Removes white border created by blur*/
+  background-blend-mode: lighten;
+
+  /*Positions background*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*Applies Blur*/
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+
+  z-index: -1;
+}
+
+/*Rest of the page*/
+.content {
+  /*Positioning*/
+  top: 0px;
+  left: 0px;
+  position: absolute;
+
+  /*Fullscreen*/
+  width: 100%;
+  height: 100%;
+  
+  /*Space on all Sides but buttom*/
+  padding: 10% 10% 0% 10%;
+
+  /*Show bg-image*/
+  background-color: transparent;
+}
+
+h1 {
+  /*Font + Sizing*/
+  font-variant: small-caps;
+  text-align: center;
+
+  /*Coloring*/
+  background-color: var(--background-mixer);
+  color: var(--text-color-heading);
+  
+  /*Remove Margin*/
+  margin: 0px;
+
+  /*Limit Resizing*/
+  min-width: 300px;
+}
+
+/*Navigation while hidden*/
+nav {
+  /*Color*/
+  background-color: var(--main-color);
+
+  /*Position*/
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  /*Size*/
+  width: 100px;
+  height: 100px;
+
+  /*Shaping*/
+  border-radius: 0% 0% 25% 0%;
+  border-width: 0px;
+  
+  /*Back transition*/
+  transition-duration: var(--navduration);
+  -webkit-transition-duration: var(--navduration);
+  -moz-transition-duration: var(--navduration);
+  -o-transition-duration: var(--navduration);
+
+  /*Always on top*/
+  z-index: 1;
+}
+
+/*Navigation while active*/
+nav:hover {
+  /*Transition*/
+  transition-duration: var(--navduration);
+  -webkit-transition-duration: var(--navduration);
+  -moz-transition-duration: var(--navduration);
+  -o-transition-duration: var(--navduration);
+
+  /*Sizing Shaping*/
+  border-radius: 0%;
+  height: 100%;
+  width: 300px;
+}
+
+/*Line containter on the nav icon*/
+nav .lines {
+  /*Backtransition*/
+  transition-duration: var(--navduration);
+  -webkit-transition-duration: var(--navduration);
+  -moz-transition-duration: var(--navduration);
+  -o-transition-duration: var(--navduration);
+
+  /*Position*/
+  position: relative;
+  top: 25%;
+  left: 25%;
+
+  /*Size*/
+  width: 50%;
+  height: 50%;
+}
+
+/*Lines on nav icon hide when hovered*/
+nav:hover .lines {
+  /*Transition*/
+  transition-duration: var(--navduration);
+  -webkit-transition-duration: var(--navduration);
+  -moz-transition-duration: var(--navduration);
+  -o-transition-duration: var(--navduration);
+
+  /*Size Positioning*/
+  width: 0%;
+  height: 0%;
+  top: 0%;
+  left: 0%;
+}
+
+/*Actual Lines*/
+nav .lines div {
+  /*Position*/
+  position: relative;
+  height: 20%;
+  width: 100%;
+
+  /*Color*/
+  background-color: var(--text-color-main);
+
+  /*Spacing*/
+  margin-bottom: 20%;
+}
+
+/*Content of the Navigation*/
+nav:hover .navcontent {
+  /*Transition*/
+  transition-delay: var(--navduration);
+  -webkit-transition-delay: var(--navduration);
+  -moz-transition-delay: var(--navduration);
+  -o-transition-delay: var(--navduration);
+
+  /*Full Size*/
+  height: 100%;
+  width: 100%;
+}
+
+/*Hidden when the button is not Hovered*/
+nav .navcontent {
+  overflow: hidden;
+  height: 0%;
+}
+
+/*List of Pages*/
+.navcontent ul {
+  /*No Marker*/
+  list-style-type: none;
+
+  /*No Spacing*/
+  padding: 0px;
+  margin: 0px;
+}
+
+.navcontent ul li {
+  /*Spacing*/
+  padding: 5px;
+  margin: 5px;
+}
+
+.navcontent ul li a {
+  /*Full width link*/
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.navcontent ul li:hover,
+.current {
+  /*Highlight current + hovered*/
+  background-color: var(--background-mixer);
+}
+
+a {
+  /*Remove link styling*/
+  text-decoration: none;
+  color: inherit;
+}
+
+.text {
+  /*Limit Resizing*/
+  min-width: 485px;
+}
+
+iframe {
+  background-color: white;
+  margin-top: 0.5cm;
+  width: 100%;
+  height: 100%;
+}
+
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 141%;
+}
+
+.aspect-ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.stundenplan,
+.contact {
+  margin: 0.5cm 0cm 0cm 0cm;
+  padding: 0px;
+  background-color: var(--background-mixer);
+  min-width: 850px;
+}
+.stundenplan table {
+  width: 100%;
+}
+.stundenplan table tr {
+  height: 1cm;
+}
+.stundenplan table tr td {
+  width: 12.5%;
+  border: 1px solid var(--background-mixer);
+}
+.stundenplan table tr th {
+  color: var(--text-color-heading);
+  width: 12.5%;
+  background-color: var(--background-mixer);
+}
+
+.contact table {
+  width: 100%;
+}
+
+.contact table tr td {
+  width: 50%;
+}
+
+.profilepic {
+  text-align: right;
+}
+
+
+.heart {
+  background-image: url("img/kontaktbild.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 6cm;
+  width: 4.5cm;
+}
+
