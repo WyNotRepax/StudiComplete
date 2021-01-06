@@ -8,6 +8,9 @@ OOAD/kleukersSEU
 *.exe
 *.zip
 
+*.log
+*.tlog
+
 #System Information
 *.DS_Store
 
