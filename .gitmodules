@@ -1,0 +1,3 @@
+[submodule "OOAD-Projekt"]
+	path = OOAD/OOAD-Projekt
+	url = git@github.com:WyNotRepax/OOAD-Projekt.git
