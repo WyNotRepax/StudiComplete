@@ -1,0 +1,5 @@
+package action;
+
+public enum Art {
+  ADD, DELETE, TESTDATA, FINISH,SHOW_RESPONSIBILITIES, PROTECT,REARRANGE
+}

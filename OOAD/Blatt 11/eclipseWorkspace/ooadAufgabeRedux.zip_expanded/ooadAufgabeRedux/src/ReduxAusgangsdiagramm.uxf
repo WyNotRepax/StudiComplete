@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>12</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>468</x>
+      <y>252</y>
+      <w>228</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>Reducer
+--
+
+--
++ reduce(State, Action):State</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>960</x>
+      <y>336</y>
+      <w>204</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>State
+--
+
+--
++ State()
+- State(TaskList)
++ getTaskList():TaskList
++ add(String, String)
++ delete(id)
++ clone():State
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>384</x>
+      <y>0</y>
+      <w>192</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+StoreInterface
+--
++ dispatch(Action)
++ subscribe(Subscriber)
++ notifySubscribers()
++ getState():State</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>132</x>
+      <y>216</y>
+      <w>204</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;abstract&gt;&gt;
+Action
+--
+# parameter:List&lt;String&gt;
+--
++ Action(List&lt;String&gt;)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>276</y>
+      <w>228</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-currentState
+m1=1</panel_attributes>
+    <additional_attributes>90.0;50.0;90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>192</y>
+      <w>240</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-reducer
+m1=1</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;20.0;180.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>168</y>
+      <w>144</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+m2=&lt;&lt;generates&gt;&gt;</panel_attributes>
+    <additional_attributes>90.0;190.0;60.0;190.0;60.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>744</x>
+      <y>372</y>
+      <w>168</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+Subscriber
+--
++ onChange(State)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>396</x>
+      <y>384</y>
+      <w>96</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>TextIO</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>84</y>
+      <w>180</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-store
+m1=1
+</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>396</y>
+      <w>288</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>220.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>432</x>
+      <y>120</y>
+      <w>36</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>108</x>
+      <y>372</y>
+      <w>96</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>AddAction</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>228</x>
+      <y>372</y>
+      <w>144</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>DeleteAction
+--
+- id:int
+--
++DeleteAction(int)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>312</y>
+      <w>120</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;80.0;30.0;10.0;30.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>228</x>
+      <y>312</y>
+      <w>108</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0;70.0;30.0;70.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>0</x>
+      <y>132</y>
+      <w>252</w>
+      <h>312</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+m2=&lt;&lt;generates&gt;&gt;</panel_attributes>
+    <additional_attributes>190.0;240.0;50.0;240.0;50.0;10.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>0</y>
+      <w>192</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;abstract&gt;&gt;
+AbstractDecoratorStore
+--
+
+--
++ dispatch(Action)
++ subscribe(Subscriber)
++ notifySubscribers()
++ getState():State</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>804</x>
+      <y>300</y>
+      <w>120</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-subscribers
+m1=*
+r1pos=0,20
+m1pos=7,20</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>24</y>
+      <w>180</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>972</x>
+      <y>0</y>
+      <w>156</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>TimerStore
+--
+- start:int
+--
++ dispatch(Action)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>168</y>
+      <w>192</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>Store
+--
+
+--
++ dispatch(Action)
++ subscribe(Subscriber)
++ notifySubscribers()
++ getState():State</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>36</y>
+      <w>96</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>516</x>
+      <y>120</y>
+      <w>228</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0;170.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>108</y>
+      <w>228</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>ActionFactory
+--
+
+--
+_+create(Art, Object[]): Action_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>336</x>
+      <y>144</y>
+      <w>108</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>10.0;20.0;70.0;20.0;70.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>324</x>
+      <y>252</y>
+      <w>108</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>10.0;20.0;70.0;20.0;70.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>36</x>
+      <y>0</y>
+      <w>84</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enum&gt;&gt;
+Art
+--
+ADD
+DELETE</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>108</x>
+      <y>36</y>
+      <w>348</w>
+      <h>372</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>10.0;10.0;210.0;10.0;210.0;90.0;270.0;90.0;270.0;290.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>108</x>
+      <y>48</y>
+      <w>96</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>10.0;20.0;60.0;20.0;60.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1164</x>
+      <y>0</y>
+      <w>204</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>User
+--
+_- allowed:List&lt;String&gt;_
+--
+_+ allowed(String):boolean_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>924</x>
+      <y>540</y>
+      <w>204</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Task
+--
+_-idcount:int = 1_
++ id:int
++ text:String
++ responsible:String
++ finished:boolean = false
+--
++Task(String, String)
++ clone():Task</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>732</x>
+      <y>588</y>
+      <w>216</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=[id]-&gt;
+m2=1
+r2=-tasks
+</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>540</y>
+      <w>252</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>TaskList
+--
+
+--
++TaskList()
+-TaskList(Map&lt;Integer,Task&gt;)
+_+ testdaten():TaskList_
++ add(String,String)
++ delete(int)
++ clone():TaskList</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>468</y>
+      <w>384</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=-taskList
+m1=1</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0;300.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>564</x>
+      <y>324</y>
+      <w>420</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>330.0;110.0;10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

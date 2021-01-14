@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_31" class="java.beans.XMLDecoder">
+ <object class="java.util.HashSet">
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object class="entities.Modul" id="Modul0">
+      <void property="modulnr">
+       <int>7</int>
+      </void>
+      <void property="titel">
+       <string>Theoretische Informatik</string>
+      </void>
+     </object>
+    </void>
+    <void property="note">
+     <int>230</int>
+    </void>
+    <void property="student">
+     <object class="entities.Student" id="Student0">
+      <void property="matnr">
+       <int>102</int>
+      </void>
+      <void property="name">
+       <string>Ute</string>
+      </void>
+     </object>
+    </void>
+    <void property="versuch">
+     <int>2</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object class="entities.Modul" id="Modul1">
+      <void property="modulnr">
+       <int>6</int>
+      </void>
+      <void property="titel">
+       <string>Verteilte Systeme</string>
+      </void>
+     </object>
+    </void>
+    <void property="note">
+     <int>230</int>
+    </void>
+    <void property="student">
+     <object class="entities.Student" id="Student1">
+      <void property="matnr">
+       <int>101</int>
+      </void>
+      <void property="name">
+       <string>Leila</string>
+      </void>
+     </object>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul0"/>
+    </void>
+    <void property="note">
+     <int>200</int>
+    </void>
+    <void property="student">
+     <object idref="Student1"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object class="entities.Modul" id="Modul2">
+      <void property="modulnr">
+       <int>8</int>
+      </void>
+      <void property="titel">
+       <string>SW-Projekt</string>
+      </void>
+     </object>
+    </void>
+    <void property="note">
+     <int>100</int>
+    </void>
+    <void property="student">
+     <object idref="Student1"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul1"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student0"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object class="entities.Modul" id="Modul3">
+      <void property="modulnr">
+       <int>2</int>
+      </void>
+      <void property="titel">
+       <string>Programmierung 2</string>
+      </void>
+     </object>
+    </void>
+    <void property="note">
+     <int>230</int>
+    </void>
+    <void property="student">
+     <object idref="Student0"/>
+    </void>
+    <void property="versuch">
+     <int>2</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object class="entities.Modul" id="Modul4">
+      <void property="modulnr">
+       <int>5</int>
+      </void>
+      <void property="titel">
+       <string>OOAD</string>
+      </void>
+     </object>
+    </void>
+    <void property="note">
+     <int>270</int>
+    </void>
+    <void property="student">
+     <object class="entities.Student" id="Student2">
+      <void property="matnr">
+       <int>100</int>
+      </void>
+      <void property="name">
+       <string>Sergej</string>
+      </void>
+     </object>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul1"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student0"/>
+    </void>
+    <void property="versuch">
+     <int>2</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul1"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student2"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul2"/>
+    </void>
+    <void property="note">
+     <int>170</int>
+    </void>
+    <void property="student">
+     <object idref="Student2"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object class="entities.Modul" id="Modul5">
+      <void property="modulnr">
+       <int>3</int>
+      </void>
+      <void property="titel">
+       <string>Datenbanken</string>
+      </void>
+     </object>
+    </void>
+    <void property="note">
+     <int>170</int>
+    </void>
+    <void property="student">
+     <object idref="Student1"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul1"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student2"/>
+    </void>
+    <void property="versuch">
+     <int>2</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul3"/>
+    </void>
+    <void property="note">
+     <int>170</int>
+    </void>
+    <void property="student">
+     <object idref="Student2"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul3"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student0"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object class="entities.Modul" id="Modul6">
+      <void property="modulnr">
+       <int>4</int>
+      </void>
+      <void property="titel">
+       <string>Algorithmen</string>
+      </void>
+     </object>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student2"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul6"/>
+    </void>
+    <void property="note">
+     <int>370</int>
+    </void>
+    <void property="student">
+     <object idref="Student0"/>
+    </void>
+    <void property="versuch">
+     <int>3</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object class="entities.Modul" id="Modul7">
+      <void property="modulnr">
+       <int>1</int>
+      </void>
+      <void property="titel">
+       <string>Programmierung 1</string>
+      </void>
+     </object>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object class="entities.Student" id="Student3">
+      <void property="matnr">
+       <int>103</int>
+      </void>
+      <void property="name">
+       <string>Uwe</string>
+      </void>
+     </object>
+    </void>
+    <void property="versuch">
+     <int>2</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul5"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student3"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul6"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student0"/>
+    </void>
+    <void property="versuch">
+     <int>2</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul7"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student3"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul5"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student3"/>
+    </void>
+    <void property="versuch">
+     <int>2</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul6"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student0"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul0"/>
+    </void>
+    <void property="note">
+     <int>130</int>
+    </void>
+    <void property="student">
+     <object idref="Student2"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul5"/>
+    </void>
+    <void property="note">
+     <int>130</int>
+    </void>
+    <void property="student">
+     <object idref="Student2"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul3"/>
+    </void>
+    <void property="note">
+     <int>130</int>
+    </void>
+    <void property="student">
+     <object idref="Student1"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul4"/>
+    </void>
+    <void property="note">
+     <int>230</int>
+    </void>
+    <void property="student">
+     <object idref="Student1"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object class="entities.Modul">
+      <void property="modulnr">
+       <int>9</int>
+      </void>
+      <void property="titel">
+       <string>Komponenten</string>
+      </void>
+     </object>
+    </void>
+    <void property="note">
+     <int>200</int>
+    </void>
+    <void property="student">
+     <object idref="Student0"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul7"/>
+    </void>
+    <void property="note">
+     <int>100</int>
+    </void>
+    <void property="student">
+     <object idref="Student2"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul6"/>
+    </void>
+    <void property="note">
+     <int>300</int>
+    </void>
+    <void property="student">
+     <object idref="Student1"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul0"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student0"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul7"/>
+    </void>
+    <void property="note">
+     <int>230</int>
+    </void>
+    <void property="student">
+     <object idref="Student0"/>
+    </void>
+    <void property="versuch">
+     <int>2</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul7"/>
+    </void>
+    <void property="note">
+     <int>200</int>
+    </void>
+    <void property="student">
+     <object idref="Student1"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul7"/>
+    </void>
+    <void property="note">
+     <int>400</int>
+    </void>
+    <void property="student">
+     <object idref="Student3"/>
+    </void>
+    <void property="versuch">
+     <int>3</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul3"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student3"/>
+    </void>
+    <void property="versuch">
+     <int>2</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul5"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student0"/>
+    </void>
+    <void property="versuch">
+     <int>2</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul3"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student3"/>
+    </void>
+    <void property="versuch">
+     <int>3</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul7"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student0"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul6"/>
+    </void>
+    <void property="note">
+     <int>270</int>
+    </void>
+    <void property="student">
+     <object idref="Student2"/>
+    </void>
+    <void property="versuch">
+     <int>2</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul3"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student3"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul5"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student0"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul4"/>
+    </void>
+    <void property="note">
+     <int>500</int>
+    </void>
+    <void property="student">
+     <object idref="Student0"/>
+    </void>
+    <void property="versuch">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul1"/>
+    </void>
+    <void property="note">
+     <int>400</int>
+    </void>
+    <void property="student">
+     <object idref="Student2"/>
+    </void>
+    <void property="versuch">
+     <int>3</int>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="entities.Pruefung">
+    <void property="modul">
+     <object idref="Modul4"/>
+    </void>
+    <void property="note">
+     <int>370</int>
+    </void>
+    <void property="student">
+     <object idref="Student0"/>
+    </void>
+    <void property="versuch">
+     <int>2</int>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
