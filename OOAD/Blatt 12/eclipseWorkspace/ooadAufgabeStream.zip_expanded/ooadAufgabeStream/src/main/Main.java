@@ -1,13 +1,14 @@
 package main;
 
 import analytics.Analyse;
+import analytics.AnalyseImpl;
 
 
 public class Main {
 
     public static void main(String[] args) {
         // TODO: hier Objekt der erstellten Klasse ergaenzen: a = new ...
-        Analyse a = null;
+        Analyse a = new AnalyseImpl();
         System.out.println("---anzahlPruefungen");
         System.out.println(a.anzahlPruefungen(a.lesePruefungen()));
         System.out.println("---anzahlBestandenerPruefungen");
