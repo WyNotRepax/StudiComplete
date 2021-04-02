@@ -1,0 +1,55 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "JSONParse",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "JSONParse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-JSONParse-Debug-0b4bee6cbd212957ab28.json",
+					"name" : "JSONParse",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/benno/OneDrive/Studi/VTS/Blatt_3/JSONParse/out/build/x64-Debug",
+		"source" : "C:/Users/benno/OneDrive/Studi/VTS/Blatt_3/JSONParse"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
