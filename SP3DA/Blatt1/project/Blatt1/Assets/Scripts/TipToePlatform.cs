@@ -90,4 +90,12 @@ public class TipToePlatform : MonoBehaviour
         }
 
     }
+
+    private void OnDrawGizmos()
+    {
+        if (isPath)
+        {
+            Gizmos.DrawCube(transform.position, transform.localScale + Vector3.one * 0.3f);
+        }
+    }
 }

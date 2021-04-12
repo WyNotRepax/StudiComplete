@@ -58,8 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\TipToePlatform.cs" />
     <Compile Include="Assets\Scripts\SimpleCharacterControl.cs" />
-    <Compile Include="Assets\Scripts\TipToeLogic.cs" />
     <Compile Include="Assets\Scripts\CamScript.cs" />
+    <Compile Include="Assets\Scripts\TipToeLogic.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
