@@ -4,3 +4,9 @@
 [submodule "CG/CG-Projekt"]
 	path = CG/CG-Projekt
 	url = https://github.com/WyNotRepax/CG-Projekt.git
+[submodule "SWA/Blatt1/swa-simple-shopping-app"]
+	path = SWA/Blatt1/swa-simple-shopping-app
+	url = https://gitlab.hs-osnabrueck.de/swa-power-group/swa-simple-shopping-app.git
+[submodule "SWEP/3dvisapp"]
+	path = SWEP/3dvisapp
+	url = ssh://git@git.gsits.cloud:2222/hsos/swep/2021-3DVisApp/3dvisapp.git
