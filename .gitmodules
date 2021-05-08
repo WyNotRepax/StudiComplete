@@ -13,3 +13,6 @@
 [submodule "SWEP/3dvisapp.wiki"]
 	path = SWEP/3dvisapp.wiki
 	url = ssh://git@git.gsits.cloud:2222/hsos/swep/2021-3DVisApp/3dvisapp.wiki.git
+[submodule "SWA/Blatt2/mocktail-app"]
+	path = SWA/Blatt2/mocktail-app
+	url = https://gitlab.hs-osnabrueck.de/swa-power-group/mocktail-app.git
